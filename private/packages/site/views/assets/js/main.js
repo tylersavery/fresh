@@ -100,8 +100,6 @@ function update(){
     
     if($bg != false){
         $bg.css('background-position-y', y + 'px');
-        console.log($bg);
-        console.log(y);
     }
     
     
