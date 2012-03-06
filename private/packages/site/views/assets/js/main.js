@@ -35,8 +35,6 @@ $(window).bind('scroll', function(){
     
    current_scroll = $(window).scrollTop();
    
-   console.log('CURRENT SCROLL: ' + current_scroll);
-   
    update();
     
 });
