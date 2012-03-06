@@ -113,7 +113,7 @@ a{
     width:960px;
     height:800px;
     background-repeat:no-repeat;
-    z-index:1;
+
     background-position:center top;
 }
 
@@ -127,6 +127,7 @@ a{
     margin-top:-60px;
     background-repeat:repeat;
     background-position:left top;
+    box-shadow:5px 5px 15px #000;
     
 }
 
@@ -176,6 +177,7 @@ a{
 
 #background_about{
     background-image:url(/img/site/backgrounds/about_wide.jpg);
+    z-index:10;
 }
 
 
@@ -190,6 +192,7 @@ a{
 
 #background_events{
     background-image:url(/img/site/backgrounds/events_wide.jpg);
+    z-index:9;
 }
 
 /* ---------- */
@@ -198,6 +201,7 @@ a{
 
 #background_store{
     background-image:url(/img/site/backgrounds/store_wide.jpg);
+    z-index:8;
 }
 
 /* ---------- */
@@ -206,6 +210,7 @@ a{
 
 #background_kinlock{
     background-image:url(/img/site/backgrounds/kinlock_wide.jpg);
+    z-index:7;
 }
 
 /* ---------- */
@@ -214,6 +219,7 @@ a{
 
 #background_blog{
     background-image:url(/img/site/backgrounds/blog_wide.jpg);
+    z-index:6;
 }
 
 #container_blog #content_blog .content_copy{
@@ -229,6 +235,7 @@ a{
 #container_contact{
     background-image:url(/img/site/backgrounds/contact.jpg);
  background-position:left bottom;
+ z-index:5;
 }
 
 #container_contact #content_contact{
