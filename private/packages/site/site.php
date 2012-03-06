@@ -11,7 +11,7 @@ class site extends \Pigeon\Package\Base {
 	
 	public static $routes = array(
 	    'site\Controller\site' => array(
-	        array('site')
+	        array('')
 	    )
     );
 	
