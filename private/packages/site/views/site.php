@@ -17,6 +17,7 @@
     
     <!-- About Us -->
     <div class="container" id="container_about">
+        <div class="background" id="background_about"></div>
         <div class="content" id="content_about">
             <div class="content_title">About Us</div>
             <div class="content_copy">
@@ -28,6 +29,7 @@
     
     <!-- Events -->
     <div class="container" id="container_events">
+        <div class="background" id="background_events"></div>
         <div class="content" id="content_events">
             <div class="content_title">Events</div>
             <div class="content_copy">
@@ -40,6 +42,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
     
     <!-- Store -->
     <div class="container" id="container_store">
+        <div class="background" id="background_store"></div>
         <div class="content" id="content_store">
             <div class="content_title">Store</div>
             <div class="content_copy">
@@ -52,6 +55,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
 
     <!-- Kinlock -->
     <div class="container" id="container_kinlock">
+        <div class="background" id="background_kinlock"></div>
         <div class="content" id="content_kinlock">
             <div class="content_title">Kinlock Collection</div>
             <div class="content_copy">
@@ -62,6 +66,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
 
     <!-- Blog -->
     <div class="container" id="container_blog">
+        <div class="background" id="background_blog"></div>
         <div class="content" id="content_blog">
             <div class="content_title">Blog</div>
             <div class="content_copy">
@@ -73,6 +78,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
 
     <!-- Contact -->
     <div class="container" id="container_contact">
+        <div class="background" id="background_contact"></div>
         <div class="content" id="content_contact">
             <div class="content_copy">
                 <h3>Get Fresh Company</h3>

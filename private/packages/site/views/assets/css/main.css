@@ -34,6 +34,8 @@ a{
     border-left:2px solid #000;
     border-right:2px solid #000;
     min-height:800px;
+    overflow:hidden;
+    background-image:url(/img/site/backgrounds/texture.jpg);
 }
 
 /* -------- */
@@ -109,10 +111,23 @@ a{
 .container{
     position:relative;
     width:960px;
-    height:700px;
+    height:800px;
     background-repeat:no-repeat;
     z-index:1;
     background-position:center top;
+}
+
+.background{
+    position:relative;
+    width:2000px;
+    height:700px;
+    -webkit-transform:rotate(-38.6deg);
+    -moz-transform:rotate(-38.6deg);
+    margin-left:-390px;
+    margin-top:-60px;
+    background-repeat:repeat;
+    background-position:left top;
+    
 }
 
 .container .content{
@@ -120,10 +135,12 @@ a{
     height:220px;
     background-image:url(/img/site/contentbg.png);
     position:absolute;
-    right:0;
-    top:50%;
-    margin-top:-110px;
-    
+    right:-500px;
+    top:80px;
+}
+
+#container_about #content_about{
+    right:0px;
 }
 
 .container .content .content_title{
@@ -133,8 +150,8 @@ a{
     font-size:30px;
     font-weight:bold;
     text-transform:uppercase;
-    -webkit-transform: rotate(-39deg);
-    -moz-transform: rotate(-40deg);
+    -webkit-transform: rotate(-39.6deg);
+    -moz-transform: rotate(-39.6deg);
     text-align:center;
     height:30px;
     width:320px;
@@ -142,9 +159,9 @@ a{
 
 .container .content .content_copy{
     position:absolute;
-    width:405px;
+    width:385px;
     top:40px;
-    right:10px;
+    right:40px;
     
     font-size:14px;
     font-weight:100;
@@ -157,8 +174,13 @@ a{
 /* - About Us - */
 /* ------------ */
 
-#container_about{
-    background-image:url(/img/site/backgrounds/about.jpg);
+#background_about{
+    background-image:url(/img/site/backgrounds/about_wide.jpg);
+}
+
+
+#container_about .content {
+    margin-top:100px;
 }
 
 
@@ -166,32 +188,32 @@ a{
 /* - Events - */
 /* ---------- */
 
-#container_events{
-    background-image:url(/img/site/backgrounds/events.jpg);
+#background_events{
+    background-image:url(/img/site/backgrounds/events_wide.jpg);
 }
 
 /* ---------- */
 /* - Store - */
 /* ---------- */
 
-#container_store{
-    background-image:url(/img/site/backgrounds/store.jpg);
+#background_store{
+    background-image:url(/img/site/backgrounds/store_wide.jpg);
 }
 
 /* ---------- */
 /* - Kinlock - */
 /* ---------- */
 
-#container_kinlock{
-    background-image:url(/img/site/backgrounds/kinlock.jpg);
+#background_kinlock{
+    background-image:url(/img/site/backgrounds/kinlock_wide.jpg);
 }
 
 /* ---------- */
 /* - Blog - */
 /* ---------- */
 
-#container_blog{
-    background-image:url(/img/site/backgrounds/blog.jpg);
+#background_blog{
+    background-image:url(/img/site/backgrounds/blog_wide.jpg);
 }
 
 #container_blog #content_blog .content_copy{
@@ -206,7 +228,7 @@ a{
 
 #container_contact{
     background-image:url(/img/site/backgrounds/contact.jpg);
- 
+ background-position:left bottom;
 }
 
 #container_contact #content_contact{
@@ -217,7 +239,7 @@ a{
 
 #container_contact #content_contact .content_copy{
     left:80px;
-    top:400px;
+    top:420px;
     font-size:16px;
     font-weight:100;
         text-transform:uppercase;
