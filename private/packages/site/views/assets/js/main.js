@@ -9,15 +9,12 @@ $(document).ready(function(){
     var $target = $('#container_' + rel);
     var offset_y = $target.offset().top;
 
-    
-    
     $('body, html').animate({
         
         scrollTop: offset_y
         
         }, 2000);
-    
-    
+        
     return false;
     
   });
@@ -61,9 +58,12 @@ if ( ($window.scrollTop() + $window.height()) > (topOffset) &&
   // Move the background
   $self.css({ backgroundPosition: coords });
   
+ // var percent = $window.scrollTop() / topOffset; //- $self.data('offsetY');
+
+ // console.log(percent);
+  
   $('[data-type="sprite"]').each(function() {
     
-        
 
         // Cache the sprite
         var $sprite = $(this);
@@ -72,10 +72,13 @@ if ( ($window.scrollTop() + $window.height()) > (topOffset) &&
         var yPos = -($window.scrollTop() / $sprite.data('speed'));					
        // var coords = $sprite.data('Xposition') + ' ' + (yPos + $sprite.data('offsetY')) + 'px';
         
+        var xPos = -($window.scrollTop() / $sprite.data('speed'));
+        
+        
         var x = $sprite.data('Xposition');
         var y = yPos + $sprite.data('offsetY');
         
-        console.log(y);
+     
         
         $sprite.css('right', x + 'px').css('top', y + 'px');
         
