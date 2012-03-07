@@ -17,8 +17,8 @@
     
     <!-- About Us -->
     <div class="container" id="container_about">
-        <div class="background" id="background_about"></div>
-        <div class="content" id="content_about">
+        <div class="background" id="background_about" data-speed="2" data-type="background" data></div>
+        <div class="content" id="content_about" data-type="sprite" data-offsetY="280" data-Xposition="0" data-speed="1">
             <div class="content_title">About Us</div>
             <div class="content_copy">
                 <p>Get fresh company. We take pride in our business. Our priority is to keep our clientele fresh. Since our launch into the fashion world in 2009, we have been and continue to be purveyors of freshness and style through our online and Toronto-based shop. We keep our customers happy after every purchase because we integrate them into the get fresh lifestyle; unparelleled confidence with the style to match everyday.</p>
@@ -29,8 +29,8 @@
     
     <!-- Events -->
     <div class="container" id="container_events">
-        <div class="background" id="background_events"></div>
-        <div class="content" id="content_events">
+        <div class="background" id="background_events" data-speed="2" data-type="background"data-offsetY="100"></div>
+        <div class="content" id="content_events" data-type="sprite" data-offsetY="550" data-Xposition="0" data-speed="2">
             <div class="content_title">Events</div>
             <div class="content_copy">
                 <p>We create events surrounding the Get Fresh culture. An ambience for those who like to stunt and who they are. A person not afraid to express how they feel with their style because it's a true expression of what they represent.
@@ -42,8 +42,8 @@ Our events are designed to showcase the brands we sell, and introduce their phil
     
     <!-- Store -->
     <div class="container" id="container_store">
-        <div class="background" id="background_store"></div>
-        <div class="content" id="content_store">
+        <div class="background" id="background_store" data-speed="2" data-type="background"data-offsetY="600"></div>
+        <div class="content" id="content_store" data-type="sprite" data-offsetY="920" data-Xposition="0" data-speed="2">
             <div class="content_title">Store</div>
             <div class="content_copy">
                 <p>To look fresh, you have to be fresh.</p>
@@ -55,8 +55,8 @@ Our events are designed to showcase the brands we sell, and introduce their phil
 
     <!-- Kinlock -->
     <div class="container" id="container_kinlock">
-        <div class="background" id="background_kinlock"></div>
-        <div class="content" id="content_kinlock">
+        <div class="background" id="background_kinlock" data-speed="2" data-type="background" data-offsetY="800"></div>
+        <div class="content" id="content_kinlock" data-type="sprite" data-offsetY="1310" data-Xposition="50%" data-speed="2">
             <div class="content_title">Kinlock Collection</div>
             <div class="content_copy">
                 <p>Kinlock Collection, the brand will lock you in at first sight.  The accessory that compliments an outfit, or an accessory that can be the main part of your outfit. Made in Dubai, UAE and designed by Toronto stylist, Fresh, The Kinlock Collection was created in 2010, in honour of his mother's flamboyant yet classy style.</p>
@@ -66,8 +66,8 @@ Our events are designed to showcase the brands we sell, and introduce their phil
 
     <!-- Blog -->
     <div class="container" id="container_blog">
-        <div class="background" id="background_blog"></div>
-        <div class="content" id="content_blog">
+        <div class="background" id="background_blog" data-speed="2" data-type="background" data-offsetY="1000"></div>
+        <div class="content" id="content_blog" data-type="sprite" data-offsetY="1760" data-Xposition="0" data-speed="2">
             <div class="content_title">Blog</div>
             <div class="content_copy">
                 <p>Always know whats next</p>
