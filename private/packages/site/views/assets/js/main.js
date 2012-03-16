@@ -166,6 +166,10 @@ $('.background').each(function(){
       $("#right_nav_links_container li").removeClass('active'); 
       $("#bottom_link").addClass('active');
 
+      $("#menu ul li a").removeClass('active'); 
+      $("#menu ul li a#contact").addClass('active'); 
+
+
 
   }
 

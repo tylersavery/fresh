@@ -9,7 +9,7 @@
                 <li><a href="#store">Store</a></li>
                 <li><a href="#kinlock">Kinlock</a></li>
                 <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" id="contact">Contact</a></li>
             </ul>
         </div><!-- /#menu -->
     </div><!-- /#header -->
@@ -69,7 +69,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
         <div class="content" id="content_blog" data-type="sprite" data-offsetY="1760" data-Xposition="0" data-speed="2">
             <div class="content_title">Blog</div>
             <div class="content_copy">
-                <p>Always know whats next</p>
+                <p>Coming soon.<!--Always know what's next--></p>
             </div><!-- /.content_copy -->
         </div><!-- /#content_blog -->
     </div><!-- /#container_blog -->

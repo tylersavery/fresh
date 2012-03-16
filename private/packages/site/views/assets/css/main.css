@@ -53,7 +53,7 @@ a{
 #logo{
     position:absolute;
     top:0px;
-    left:0px;
+    left:-2px;
     height:345px;
     width:427px;
     background-image:url(/img/site/logo.png);
@@ -64,7 +64,7 @@ a{
     position:absolute;
     width:920px;
     height:49px;
-    left:360px;
+    left:356px;
     top:0px;
     background-image:url(/img/site/menubg.png);
     z-index:2005;
@@ -86,7 +86,6 @@ a{
     line-height:36px;
     padding-left:8px;
     padding-right:8px;
-    color:#fff;
     font-size:14px;
     text-transform:uppercase;
     text-decoration:none;
@@ -94,11 +93,13 @@ a{
     -webkit-transition:color 0.2s ease-in;
     font-weight:100;
     letter-spacing:1px;
+    color:#ababab;
     
 }
 
 #menu ul li a:hover, #menu ul li a.active{
-    color:#18b1a4;
+  
+    color:#fff;
 
 }
 
@@ -258,7 +259,10 @@ a{
 
 #container_blog #content_blog .content_copy{
 
-    text-indent:90px;
+}
+
+#container_blog .content{
+    width:400px;
 }
 
 
@@ -280,6 +284,9 @@ background-image:url(/img/site/backgrounds/contact.jpg);
     width:400px;
 }
 
+
+
+
 #container_contact #content_contact .content_copy{
 
     font-size:16px;
@@ -297,7 +304,7 @@ background-image:url(/img/site/backgrounds/contact.jpg);
 
 #container_contact #content_contact .content_copy #contact_address{
     line-height:20px;
-    opacity:.8;
+    opacity:.7;
     margin-bottom:8px;
 }
 
@@ -306,26 +313,69 @@ background-image:url(/img/site/backgrounds/contact.jpg);
 
 #container_contact #content_contact .content_copy #contact_details{
     line-height:20px;
-    opacity:.8;
+    opacity:1;
 
     margin-top:18px;
+    color: #ABABAB;
 }
 
+
+
 #container_contact #content_contact .content_copy #contact_details span{
-    font-weight:bold;
+    font-weight:normal;
     margin-right:8px;
 }
 
 #container_contact #content_contact .content_copy #contact_details a{
     text-decoration:none;
+     color: #ABABAB;
+}
+
+
+
+#container_contact #content_contact .content_copy #contact_details a:hover{
     color:#fff;
 }
 
 
-#container_contact #content_contact .content_copy #contact_details a:hover{
-    color:#18b1a4;
+/* black overides */
+
+
+#container_contact .content:after {
+    content:'';
+    width:400px;
+    height:5px;
+    background-color:#000;
+    position: absolute;
+    bottom:-8px;
 }
 
+#container_contact .content_title{
+    border-bottom:5px solid #000;
+    color:#000;
+    width:400px;
+}
+
+
+#container_blog .content:after {
+    content:'';
+ 
+    height:5px;
+    background-color:#000;
+    position: absolute;
+    bottom:-8px;
+    width:400px;
+}
+
+#container_blog .content_title{
+    border-bottom:5px solid #000;
+    color:#000;
+    width:400px;
+    
+}
+
+
+/* RIGHT NAV */
 
 
 
