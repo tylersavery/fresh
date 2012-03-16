@@ -9,8 +9,6 @@ zoom = 16;
 stadium_lat = 43.635215;
 lat_offset = lat - stadium_lat;
 
-
-
 $(document).ready(function(){
 
   set_arrow_position();
