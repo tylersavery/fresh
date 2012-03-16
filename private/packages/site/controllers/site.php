@@ -9,6 +9,9 @@ class Site extends \Base\Controller\Base {
         $this->add_asset('css', 'main.css');
 
         $this->add_asset('js', 'jquery.min.js');
+        $this->add_asset('js', 'scrollspy.js');
+        $this->add_asset('js', 'https://maps.googleapis.com/maps/api/js?sensor=false', 'remote');
+
         $this->add_asset('js', 'main.js');
         $this->add_meta('name', 'Get Fresh Company');
         

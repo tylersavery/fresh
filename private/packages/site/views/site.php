@@ -1,11 +1,10 @@
 {{{view.site_header}}}
-
 <div class="wrap">
     <div id="header">
         <div id="logo">Get Fresh Company</div>
         <div id="menu">
             <ul>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="#about" class="active">About Us</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#store">Store</a></li>
                 <li><a href="#kinlock">Kinlock</a></li>
@@ -66,7 +65,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
 
     <!-- Blog -->
     <div class="container" id="container_blog">
-        <div class="background" id="background_blog" data-speed="2" data-type="background" data-offsetY="1000"></div>
+        <div class="background" id="background_blog" data-speed="2" data-type="background" data-offsetY="1100"></div>
         <div class="content" id="content_blog" data-type="sprite" data-offsetY="1760" data-Xposition="0" data-speed="2">
             <div class="content_title">Blog</div>
             <div class="content_copy">
@@ -78,8 +77,9 @@ Our events are designed to showcase the brands we sell, and introduce their phil
 
     <!-- Contact -->
     <div class="container" id="container_contact">
-        <div class="background" id="background_contact"></div>
+        <div id="map" data-speed="2"></div>
         <div class="content" id="content_contact">
+            
             <div class="content_copy">
                 <h3>Get Fresh Company</h3>
                 <div id="contact_address">
@@ -99,6 +99,19 @@ Our events are designed to showcase the brands we sell, and introduce their phil
         </div><!-- /#content_contact -->
     </div><!-- /#container_contact -->
 
+    <div id="right_nav">
+        <div id="right_nav_arrow"></div>
+        <div id="right_nav_links">
+            <ul id="right_nav_links_container" data-speed="12" data-offsetY="0">
+                <li class="right_nav_link "><a href="#background_about"></a></li>
+                <li class="right_nav_link active"><a href="#background_events"></a></li>
+                <li class="right_nav_link"><a href="#background_store"></a></li>
+                <li class="right_nav_link"><a href="#background_kinlock"></a></li>
+                <li class="right_nav_link"><a href="#background_blog"></a></li>
+                <li class="right_nav_link"><a href="#background_contact"></a></li>
+            </div>
+        </div>
+    </div>
 
 </div><!-- /.wrap -->
 

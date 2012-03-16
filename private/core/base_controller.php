@@ -29,10 +29,16 @@ class Base_Controller {
     }
     
     public function add_asset($type, $file, $public = false, $minify = true, $attributes = '', $position = 'head') {
+
+
+
         $package = explode('\\', get_called_class());
         switch ($type) {
             case 'js':
-                if ($public) {
+
+                if ($public == 'remote'){
+                    $file = $file;
+                } else if ($public == true) {
                     $file = '/js/'.$file;
                 } else {
                     $file = '/js/'.strtolower($package[0]).'/'.$file.(($minify) ? '?min=true' : '');
@@ -42,7 +48,9 @@ class Base_Controller {
                 $this->{$position}[$this->{$position}->getSize() - 1] = 'src="'.$file.'" '.$attributes;
                 break;
             case 'css':
-                if ($public) {
+                if ($public == 'remote'){
+                    $file = $file;
+                } else if ($public) {
                     $file = 'href="/css/'.$file.'" '.$attributes;
                 } else {
                     $file = 'href="/css/'.strtolower($package[0]).'/'.$file.'" '.$attributes;
