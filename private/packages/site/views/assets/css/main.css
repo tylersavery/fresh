@@ -62,7 +62,7 @@ a{
 
 #menu{
     position:absolute;
-    width:1200px;
+    width:920px;
     height:49px;
     left:360px;
     top:0px;
@@ -276,7 +276,7 @@ background-image:url(/img/site/backgrounds/contact.jpg);
     background:rgba(0,0,0, .8);
     right:50px;
     top:50%;
-    margin-top:-180px;
+    margin-top:-136px;
     width:400px;
 }
 
