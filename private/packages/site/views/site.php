@@ -28,7 +28,7 @@
     
     <!-- Events -->
     <div class="container" id="container_events">
-        <div class="background" id="background_events" data-speed="2" data-type="background" data-offsetY="320"></div>
+        <div class="background" id="background_events" data-speed="2" data-type="background" data-offsetY="290"></div>
         <div class="content" id="content_events" data-type="sprite" data-offsetY="550" data-Xposition="0" data-speed="2">
             <div class="content_title">Events</div>
             <div class="content_copy">
