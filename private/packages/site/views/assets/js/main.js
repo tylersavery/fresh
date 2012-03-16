@@ -218,6 +218,13 @@ $('.background').each(function(){
 });
 
 
+$(window).resize(function(){
+
+  set_bar_x();
+
+});
+
+
 
 function set_arrow_position(){
 
@@ -285,7 +292,6 @@ var latLng = new google.maps.LatLng(lat, lng);
 function set_bar_x(){
 
   var x = Math.floor(($(window).width() - 1280) / 2);
-
   $("#right_nav").css('right', x + 'px');
 
 }
