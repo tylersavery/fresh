@@ -11,6 +11,10 @@ lat_offset = lat - stadium_lat;
 
 $(document).ready(function(){
 
+
+  set_bar_x();
+
+
   set_arrow_position();
   init_map();
 
@@ -274,6 +278,15 @@ var latLng = new google.maps.LatLng(lat, lng);
 
 
 
+
+}
+
+
+function set_bar_x(){
+
+  var x = Math.floor(($(window).width() - 1280) / 2);
+
+  $("#right_nav").css('right', x + 'px');
 
 }
 

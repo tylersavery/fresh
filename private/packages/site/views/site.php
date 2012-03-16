@@ -28,7 +28,7 @@
     
     <!-- Events -->
     <div class="container" id="container_events">
-        <div class="background" id="background_events" data-speed="2" data-type="background" data-offsetY="330"></div>
+        <div class="background" id="background_events" data-speed="2" data-type="background" data-offsetY="355"></div>
         <div class="content" id="content_events" data-type="sprite" data-offsetY="550" data-Xposition="0" data-speed="2">
             <div class="content_title">Events</div>
             <div class="content_copy">
@@ -41,7 +41,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
     
     <!-- Store -->
     <div class="container" id="container_store">
-        <div class="background" id="background_store" data-speed="2" data-type="background"data-offsetY="600"></div>
+        <div class="background" id="background_store" data-speed="2" data-type="background"data-offsetY="730"></div>
         <div class="content" id="content_store" data-type="sprite" data-offsetY="920" data-Xposition="0" data-speed="2">
             <div class="content_title">Store</div>
             <div class="content_copy">
@@ -54,7 +54,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
 
     <!-- Kinlock -->
     <div class="container" id="container_kinlock">
-        <div class="background" id="background_kinlock" data-speed="2" data-type="background" data-offsetY="800"></div>
+        <div class="background" id="background_kinlock" data-speed="2" data-type="background" data-offsetY="1050"></div>
         <div class="content" id="content_kinlock" data-type="sprite" data-offsetY="1310" data-Xposition="50%" data-speed="2">
             <div class="content_title">Kinlock Collection</div>
             <div class="content_copy">
@@ -65,7 +65,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
 
     <!-- Blog -->
     <div class="container" id="container_blog">
-        <div class="background" id="background_blog" data-speed="2" data-type="background" data-offsetY="1100"></div>
+        <div class="background" id="background_blog" data-speed="2" data-type="background" data-offsetY="1400"></div>
         <div class="content" id="content_blog" data-type="sprite" data-offsetY="1760" data-Xposition="0" data-speed="2">
             <div class="content_title">Blog</div>
             <div class="content_copy">
