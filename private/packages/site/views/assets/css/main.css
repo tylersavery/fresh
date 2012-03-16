@@ -15,7 +15,7 @@
 */
 
 body {
-    background-color:#aaa;
+    background-color:#000;
     color:#fff;
     /*font-family:Helvetica, Arial, sans-serif;*/
     font-family: Futura, sans-serif;
@@ -62,7 +62,7 @@ a{
 
 #menu{
     position:absolute;
-    width:920px;
+    width:924px;
     height:49px;
     left:356px;
     top:0px;
