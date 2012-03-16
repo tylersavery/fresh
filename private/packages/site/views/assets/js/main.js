@@ -251,6 +251,15 @@ function set_arrow_position(){
 function init_map(){
 
 var latLng = new google.maps.LatLng(lat, lng);
+
+var color_scheme_json = [
+  {
+    stylers: [
+      { saturation: -99 },
+      { gamma: 0.62 }
+    ]
+  }
+];
   
   var myOptions = {
     zoom: zoom,
@@ -258,6 +267,8 @@ var latLng = new google.maps.LatLng(lat, lng);
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     scrollwheel: false,
     mapTypeControl: false,
+
+
     mapTypeControlOptions: {
         style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
         position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -283,10 +294,16 @@ var latLng = new google.maps.LatLng(lat, lng);
 
   map = new google.maps.Map(document.getElementById('map'), myOptions);
 
+  map.setOptions({ styles: color_scheme_json })
+
+  var image = '/img/site/marker.png';
+
+
   var marker = new google.maps.Marker({
         position: latLng, 
         map: map,
-        title:"Here we are!"
+        title:"Here we are!",
+        icon: image
     });   
 
 
