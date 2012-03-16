@@ -79,6 +79,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
     <div class="container" id="container_contact">
         <div id="map" data-speed="2"></div>
         <div class="content" id="content_contact">
+            <div class="content_title">Contact</div>
             
             <div class="content_copy">
                 <h3>Get Fresh Company</h3>

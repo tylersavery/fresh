@@ -15,7 +15,7 @@
 */
 
 body {
-    background-color:#000;
+    background-color:#aaa;
     color:#fff;
     /*font-family:Helvetica, Arial, sans-serif;*/
     font-family: Futura, sans-serif;
@@ -273,22 +273,25 @@ background-image:url(/img/site/backgrounds/contact.jpg);
 }
 
 #container_contact #content_contact{
-    background:none;
-    left:0px;
-    top:0px;
+    background:rgba(0,0,0, .8);
+    right:50px;
+    top:50%;
+    margin-top:-180px;
+    width:400px;
 }
 
 #container_contact #content_contact .content_copy{
-    left:80px;
-    top:420px;
+
     font-size:16px;
     font-weight:100;
         text-transform:uppercase;
+
+
 }
 
 #container_contact #content_contact .content_copy h3{
-    font-size:18px;
-    font-weight:bold;
+    font-size:24px;
+    font-weight:100;
     margin-bottom:8px;
 }
 
@@ -304,7 +307,8 @@ background-image:url(/img/site/backgrounds/contact.jpg);
 #container_contact #content_contact .content_copy #contact_details{
     line-height:20px;
     opacity:.8;
-    margin-bottom:22px;
+
+    margin-top:18px;
 }
 
 #container_contact #content_contact .content_copy #contact_details span{
