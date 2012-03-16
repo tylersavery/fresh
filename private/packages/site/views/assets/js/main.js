@@ -161,6 +161,14 @@ $('.background').each(function(){
 
   }
 
+  if($window.scrollTop() == $(document).height() - $window.height()){
+
+      $("#right_nav_links_container li").removeClass('active'); 
+      $("#bottom_link").addClass('active');
+
+
+  }
+
 
 
   // If this section is in view

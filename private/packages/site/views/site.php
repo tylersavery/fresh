@@ -109,7 +109,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
                 <li class="right_nav_link"><a href="#background_store"></a></li>
                 <li class="right_nav_link"><a href="#background_kinlock"></a></li>
                 <li class="right_nav_link"><a href="#background_blog"></a></li>
-                <li class="right_nav_link"><a href="#background_contact"></a></li>
+                <li class="right_nav_link" id="bottom_link"><a href="#background_contact"></a></li>
             </div>
         </div>
     </div>
