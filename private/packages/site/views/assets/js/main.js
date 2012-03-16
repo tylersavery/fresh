@@ -99,7 +99,7 @@ $('#map').each(function(){
     
     var window_offset = $(document).height() - $window.height();
 
-    console.log(window_offset);
+    //console.log(window_offset);
 
     var extra_lat = 0.002;
 
