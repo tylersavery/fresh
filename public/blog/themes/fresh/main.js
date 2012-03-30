@@ -1,9 +1,6 @@
 jQuery(document).ready(function(){
 	
 	
-	
-	
-		alert("HEY");
 
 	$(".slider").anythingSlider({
 		width: 920,
@@ -20,8 +17,6 @@ jQuery(document).ready(function(){
 	$(".post.store").hide();
 
 	$(" #menu_item_store, #section_store").live('click', function(){
-
-		alert('click');
 		
 		if(!$(this).hasClass('active')){
 			$(".post.freshbossin").slideUp(300, function(){
