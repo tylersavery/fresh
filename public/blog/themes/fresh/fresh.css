@@ -288,6 +288,15 @@ h1#logo{
 
 
 
+.post .post_caption{
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	width:auto;
+	padding: 12px;
+	background-color: rgba(0,0,0,.7);
+}
+
 
 
 /* Footer */
