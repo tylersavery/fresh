@@ -303,6 +303,15 @@ h1#logo{
 	
 }
 
+.post .post_caption a{
+	color:rgba(255,255,255,.8);
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.post .post_caption a:hover{
+	color: rgba(255,255,255,1);
+}
+
 
 
 /* Footer */
