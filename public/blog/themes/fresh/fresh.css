@@ -1,0 +1,326 @@
+/* RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Globals */
+
+#wrap {
+	width:920px;
+	position: relative;
+	margin:8px auto 16px auto;
+	background-color: #e4e4e4;
+
+}
+
+a{
+	color: #000;
+	text-decoration:none;
+	font-size:8px;
+	text-transform:uppercase;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+body{
+	color: #000;
+	background-color: #e4e4e4;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+
+
+/* Header */
+
+#header{
+	position:relative;
+	width:650px;
+	margin:auto;
+	height:65px;
+	padding-top: 10px;
+	border-bottom:2px solid #000;
+}
+
+h1#logo{
+	text-indent:-9999px;
+	position:relative;
+	margin:auto;
+	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/logo.png);
+	width:84px;
+	height:54px;
+	display: block;
+
+}
+
+
+#menu{
+	position: absolute;
+	width:300px;
+	left:0px;
+	bottom:2px;
+
+}
+
+
+#menu .menu_item{
+	position:relative;
+	float:left;
+	height:10px;
+	line-height:10px;
+	font-size:8px;
+	margin-right:4px;
+	color: #727272;
+}
+
+#menu .menu_item.active{
+	font-weight:bold;
+	font-style:italic;
+}
+
+#menu .menu_item a{
+	color:#000;
+}
+
+
+#social{
+	position: absolute;
+	width:300px;
+	right:0px;
+	bottom:0px;
+
+}
+
+
+#social .social_item a{
+	position:relative;
+	float:right;
+	height:21px;
+	width:21px;
+	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/social.gif);
+	margin-left:2px;
+	text-indent:-9999px;
+	-webkit-transition:background-position 0.25s ease-in; 
+	-moz-transition:background-position 0.25s ease-in; 
+	-o-transition:background-position 0.25s ease-in;   
+	transition:background-position 0.25s ease-in; 
+}
+
+#social #social_item_facebook a{
+	background-position:0px 0px;
+}
+
+#social #social_item_twitter a{
+	background-position:-21px 0px;
+}
+
+#social #social_item_youtube a{
+	background-position:-43px 0px;
+}
+
+
+#social #social_item_facebook:hover a{
+	background-position:0px -21px;
+}
+
+#social #social_item_twitter:hover a{
+	background-position:-21px -21px;
+}
+
+#social #social_item_youtube:hover a{
+	background-position:-43px -21px;
+}
+
+
+
+/* Sections */
+
+
+#sections{
+	position:relative;
+	width:100%;
+	height:200px;
+	margin-top:14px;
+
+}
+
+.section{
+	position:relative;
+	width: 456px;
+	margin-right: 8px;
+	float: left;
+	height:200px;
+	opacity: .5;
+	-moz-opacity: .5;
+	filter:alpha(opacity=.5);
+
+	-webkit-transition:opacity 0.25s ease-in; 
+	-moz-transition:opacity 0.25s ease-in; 
+	-o-transition:opacity 0.25s ease-in; 
+	transition:opacity 0.25s ease-in; 
+	cursor: pointer;
+}
+
+.section.active{
+	opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=1);
+}
+
+.section:hover{
+	opacity:1;
+	-moz-opacity:1;
+	filter:alpha(opacity=1);
+}
+
+#section_freshbossin{
+	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/section1.jpg);
+}
+
+#section_store{
+	margin-right:0px;
+	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/section2.jpg);
+}
+
+.section h3{
+	display: block;
+	line-height:200px;
+	text-align:center;
+	font-size:24px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+.section img{
+	position:absolute;
+	left:126px;
+	top:26px;
+}
+
+
+/* Posts */
+
+
+#posts{
+	position: relative;
+	width:100%;
+
+}
+
+
+.post{
+	position: relative;
+	width:100%;
+	margin-top:8px;
+}
+
+.post .post_date{
+	position:absolute;
+	top:8px;
+	right:0px;
+	height:26px;
+	line-height:26px;
+	background-color:rgba(0,0,0,.8);
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:8px;
+	padding-right:9px;
+	letter-spacing:1px;
+	z-index:100;
+}
+
+.post img{
+	width:920px;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+#footer{
+	position:relative;
+	width:650px;
+	margin:10px auto;
+	height:70px;
+	padding-top: 10px;
+	border-top:2px solid #000;
+}
+
+#footer #footer_left{
+	position: absolute;
+	left:0px;
+	top:8px;
+	font-size:8px;
+	text-transform:uppercase;
+}
+
+#footer #footer_right{
+	position: absolute;
+	right:0px;
+	top:8px;
+	font-size:8px;
+	text-transform:uppercase;
+}
+
+#footer #footer_middle{
+	width:57px;
+	height:64px;
+	margin:-6px auto;
+}
