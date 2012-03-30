@@ -1,4 +1,8 @@
 jQuery(document).ready(function(){
+	
+	
+	
+	
 		alert("HEY");
 
 	$(".slider").anythingSlider({
