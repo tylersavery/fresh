@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"lat",
+				"lat_offset"
+			],
+			[
+				"window",
+				"window_offset"
+			],
+			[
+				"new",
+				"newLatLng"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"ac",
+				"active_link"
+			],
+			[
+				"ba",
+				"background	background-image: url"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
 				"drop",
 				"droppable"
 			],
@@ -23,11 +55,11 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 620.0
 	},
 	"console":
 	{
@@ -44,6 +76,13 @@
 	},
 	"file_history":
 	[
+		"/Users/admin/Sites/fresh/private/packages/site/views/assets/css/main.css",
+		"/Users/admin/Sites/fresh/private/packages/site/views/assets/js/main.js",
+		"/Users/admin/Sites/fresh/private/packages/site/views/assets/js/scrollspy.js",
+		"/Users/admin/Sites/fresh/private/packages/site/views/site.php",
+		"/Users/admin/Sites/fresh/private/packages/site/controllers/site.php",
+		"/Users/admin/Sites/fresh/private/core/base_controller.php",
+		"/Users/admin/Sites/fresh/public/index.php",
 		"/Users/admin/Sites/vm/public/js/jquery.ui.mouse.js",
 		"/Users/admin/Sites/vm/public/slide2.html",
 		"/Users/admin/Sites/vm/public/js/main.js",
@@ -67,6 +106,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/admin/Sites/fresh"
 		]
 	},
 	"find_state":
@@ -74,6 +114,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"a:hover",
+			"center",
+			"text-align:",
+			"console",
+			"function add_asset",
+			"map",
+			"container",
+			"content",
+			"background",
+			"console",
+			"container",
+			"activate",
+			"active",
+			"before",
 			"dragging",
 			"40px",
 			"bubble",
@@ -90,6 +144,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"background",
+			"container",
+			"content",
+			"background"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -99,6 +157,11 @@
 	},
 	"groups":
 	[
+		{
+			"sheets":
+			[
+			]
+		},
 		{
 			"sheets":
 			[
@@ -122,11 +185,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.325412053595,
 			1.0
 		],
 		"rows":
@@ -138,7 +208,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -161,6 +231,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 272.0,
+	"side_bar_width": 219.0,
 	"status_bar_visible": true
 }

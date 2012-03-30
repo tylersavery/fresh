@@ -20,7 +20,10 @@
         <div class="content" id="content_about" data-type="sprite" data-offsetY="280" data-Xposition="0" data-speed="1">
             <div class="content_title">About Us</div>
             <div class="content_copy">
-                <p>Get fresh company. We take pride in our business. Our priority is to keep our clientele fresh. Since our launch into the fashion world in 2009, we have been and continue to be purveyors of freshness and style through our online and Toronto-based shop. We keep our customers happy after every purchase because we integrate them into the get fresh lifestyle; unparelleled confidence with the style to match everyday.</p>
+                <p>Get Fresh Company, started in Toronto, Canada back in 2009. This company was
+created to design, market and sell the freshest garments that can come to mind. I
+feel that there needs to be a marketplace for the person that likes to keep it loud
+fresh but still exclusive when it comes to his or hers wardrobe.</p>
             </div><!-- /.content_copy -->
         </div><!-- /#content_about -->
     </div><!-- /#container_about -->
@@ -32,8 +35,9 @@
         <div class="content" id="content_events" data-type="sprite" data-offsetY="550" data-Xposition="0" data-speed="2">
             <div class="content_title">Events</div>
             <div class="content_copy">
-                <p>We create events surrounding the Get Fresh culture. An ambience for those who like to stunt and who they are. A person not afraid to express how they feel with their style because it's a true expression of what they represent.
-Our events are designed to showcase the brands we sell, and introduce their philosophy to our customers. We know that the only brands that thrive are the ones that don't just make clothes they influence our lifestyles as well. With our pop-up shops we purvey this and more.</p>
+                <p>Events is something that we specialize in… We love organizing Pop Up shops for
+product launches as well as in store meet in greets with your favorite artists and
+fashion shows!</p>
             </div><!-- /.content_copy -->
         </div><!-- /#content_events -->
     </div><!-- /#container_events -->
@@ -43,10 +47,12 @@ Our events are designed to showcase the brands we sell, and introduce their phil
     <div class="container" id="container_store">
         <div class="background" id="background_store" data-speed="2" data-type="background"data-offsetY="730"></div>
         <div class="content" id="content_store" data-type="sprite" data-offsetY="920" data-Xposition="0" data-speed="2">
-            <div class="content_title">Store</div>
+            <div class="content_title">Online Store</div>
             <div class="content_copy">
                 <p>To look fresh, you have to be fresh.</p>
-                <p>The Get Fresh Company online store is designed to bring originality back to the shopping experience. Selling confidence and bold designs and a variation of stylistic influences.  All garments are hand-selected by in-house fashion stylist "FRESH". You will find nothing but the latest so enjoy!</p>
+                <p>This is where you fall into the freshest marketplace in existence. A lot of the goods
+sold here are only sold here! Enjoy!</p>
+                <div id="store_button_container"><a href="store.getfreshcompany.com">Shop Now</a></div> 
             </div><!-- /.content_copy -->
         </div><!-- /#content_store -->
     </div><!-- /#container_store -->
@@ -58,7 +64,8 @@ Our events are designed to showcase the brands we sell, and introduce their phil
         <div class="content" id="content_kinlock" data-type="sprite" data-offsetY="1310" data-Xposition="50%" data-speed="2">
             <div class="content_title">Kinlock Collection</div>
             <div class="content_copy">
-                <p>Kinlock Collection, the brand will lock you in at first sight.  The accessory that compliments an outfit, or an accessory that can be the main part of your outfit. Made in Dubai, UAE and designed by Toronto stylist, Fresh, The Kinlock Collection was created in 2010, in honour of his mother's flamboyant yet classy style.</p>
+                <p>Kinlock collection it’s design speaks for it self. The Collection is manufactured in
+Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock comes from the flamboyant but classy style of the designer mother "Ms. Kinlock"</p>
             </div><!-- /.content_copy -->
         </div><!-- /#content_kinlock -->
     </div><!-- /#container_kinlock -->
@@ -69,7 +76,7 @@ Our events are designed to showcase the brands we sell, and introduce their phil
         <div class="content" id="content_blog" data-type="sprite" data-offsetY="1760" data-Xposition="0" data-speed="2">
             <div class="content_title">Blog</div>
             <div class="content_copy">
-                <p>Coming soon.<!--Always know what's next--></p>
+                <p><a href="http://freshbossin.tumblr.com/"><p>Daily updates on Get Fresh! As well as some<br /> things that we think are fresh!</p></a></p>
             </div><!-- /.content_copy -->
         </div><!-- /#content_blog -->
     </div><!-- /#container_blog -->
