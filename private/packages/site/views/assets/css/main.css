@@ -481,6 +481,9 @@ background-image:url(/img/site/backgrounds/contact.jpg);
 
 #store_button_container, #blog_button_container{
     margin-top:10px;
+    position: absolute;
+margin-top: 40px;
+margin-left: -23px;
 }
 
 #store_button_container a, #blog_button_container a{
