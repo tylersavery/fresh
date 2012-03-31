@@ -247,6 +247,19 @@ h1#logo{
 	top:26px;
 }
 
+/* Featured */
+
+#feature_container{
+	position:relative;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	backgroud-color:#000;
+}
+
+#feature_container div{
+	margin: auto;
+}
 
 /* Posts */
 
