@@ -258,6 +258,7 @@ h1#logo{
 }
 
 #feature_container div{
+	width:920px;
 	margin: auto;
 }
 
