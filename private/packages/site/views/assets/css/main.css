@@ -486,6 +486,11 @@ margin-top: 40px;
 margin-left: -23px;
 }
 
+#store_button_container{
+ margin-top: 32px;
+ margin-left: -26px;
+}
+
 #store_button_container a, #blog_button_container a{
     color:#fff;
     text-decoration:none;
