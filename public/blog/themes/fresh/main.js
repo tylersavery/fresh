@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 	
-	
+	alert("he");
 
 	$(".slider").anythingSlider({
 		width: 920,
