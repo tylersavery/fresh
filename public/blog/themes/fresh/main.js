@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 	
-	alert("he");
+	
 
 	$(".slider").anythingSlider({
 		width: 920,
@@ -19,6 +19,9 @@ jQuery(document).ready(function(){
 
 	$(" #menu_item_store, #section_store").live('click', function(){
 		
+		
+		alert("he");
+		
 		if(!$(this).hasClass('active')){
 			$(".post.freshbossin").slideUp(300, function(){
 				$(".post.store").slideDown(300);
@@ -28,6 +31,8 @@ jQuery(document).ready(function(){
 				$("#menu_item_store").addClass('active');
 			});
 		}
+		
+		
 
 		
 
