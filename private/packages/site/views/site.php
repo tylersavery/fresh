@@ -64,7 +64,7 @@ sold here are only sold here! Enjoy!</p>
         <div class="content" id="content_kinlock" data-type="sprite" data-offsetY="1310" data-Xposition="50%" data-speed="2">
             <div class="content_title">Kinlock Collection</div>
             <div class="content_copy">
-                <p>Kinlock collection it’s design speaks for it self. The Collection is manufactured in
+                <p>Kinlock collection it's design speaks for it self. The Collection is manufactured in
 Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock comes from the flamboyant but classy style of the designer mother "Ms. Kinlock"</p>
             </div><!-- /.content_copy -->
         </div><!-- /#content_kinlock -->
