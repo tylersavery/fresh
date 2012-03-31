@@ -1,6 +1,4 @@
 jQuery(document).ready(function(){
-	
-	
 
 	$(".slider").anythingSlider({
 		width: 920,
@@ -14,15 +12,11 @@ jQuery(document).ready(function(){
 
 	});
 
-
 	$(".post.store").hide();
 
 	$(" #menu_item_store, #section_store").live('click', function(){
 		
-		
-		alert("he");
-		
-		if(!$(this).hasClass('active')){
+		//if(!$(this).hasClass('active')){
 			$(".post.freshbossin").slideUp(300, function(){
 				$(".post.store").slideDown(300);
 				$("#section_freshbossin").removeClass('active');
@@ -30,11 +24,7 @@ jQuery(document).ready(function(){
 				$("#menu_item_freshbossin").removeClass('active');
 				$("#menu_item_store").addClass('active');
 			});
-		}
-		
-		
-
-		
+		//}
 
 	});
 
