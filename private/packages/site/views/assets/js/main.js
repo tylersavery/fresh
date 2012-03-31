@@ -19,6 +19,7 @@ $(document).ready(function(){
     set_arrow_position();
     init_map();
     
+    
    $('body, html').animate({
         
         scrollTop: 1
@@ -151,7 +152,7 @@ $('.background').each(function(){
 
   //scroll spy
 
-  if ( ($window.scrollTop() + $window.height() - 400) > (topOffset) &&
+  if ( ($window.scrollTop() + $window.height()) > (topOffset) &&
   ( (topOffset + $self.height()) > $window.scrollTop() ) ) {
 
     if(current != $self){
