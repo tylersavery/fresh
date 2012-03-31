@@ -16,7 +16,7 @@
     
     <!-- About Us -->
     <div class="container" id="container_about">
-        <div class="background" id="background_about" data-speed="2" data-type="background" data></div>
+        <div class="background" id="background_about" data-speed="2" data-type="background"></div>
         <div class="content" id="content_about" data-type="sprite" data-offsetY="280" data-Xposition="0" data-speed="1">
             <div class="content_title">About Us</div>
             <div class="content_copy">

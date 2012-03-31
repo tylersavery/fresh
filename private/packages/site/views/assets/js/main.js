@@ -11,13 +11,32 @@ lat_offset = lat - stadium_lat;
 
 $(document).ready(function(){
 
+    // Cache the Window object
+    $window = $(window);
 
-  set_bar_x();
-
-
-  set_arrow_position();
-  init_map();
-
+    set_bar_x();
+  
+    set_arrow_position();
+    init_map();
+    
+   $('body, html').animate({
+        
+        scrollTop: 1
+        
+        }, 1);
+  
+  /*
+    $first = $("#container_about .content");
+    var yPos = -($window.scrollTop() + 10 / $first.data('speed'));
+    
+    // If this element has a Y offset then add it on
+    if ($first.data('offsetY')) {
+      yPos += $first.data('offsetY');
+    }
+    
+    // Move the background
+    $first.css({ marginTop: (yPos + 'px')});
+  */
    $("#menu li a, #right_nav_links_container li a").click(function(){
     
 
@@ -39,8 +58,7 @@ $(document).ready(function(){
     
   });
   
-// Cache the Window object
-$window = $(window);
+
 
   set_arrow_position();
 
