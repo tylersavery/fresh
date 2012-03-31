@@ -272,6 +272,12 @@ h1#logo{
 	background: url(images/anythingslider_dark.png) no-repeat;
 }
 
+#feature_container #posts .anythingSlider .forward { right: 0; }
+#feature_container #posts .anythingSlider .forward a { background-position: right top; }
+#feature_container #posts .anythingSlider .forward a:hover, div.anythingSlider .forward a.hover { background-position: right -140px; }
+#feature_container #posts .anythingSlider .forward.disabled { display: none; } /* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
+
+
 /* Posts */
 
 
