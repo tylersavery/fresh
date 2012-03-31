@@ -4,7 +4,7 @@
         <div id="logo">Get Fresh Company</div>
         <div id="menu">
             <ul>
-                <li><a href="#about" class="active">About Us</a></li>
+                <li><a href="#about" class="active" id="about">About Us</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#store">Store</a></li>
                 <li><a href="#kinlock">Kinlock</a></li>
@@ -52,7 +52,7 @@ fashion shows!</p>
                 <p>To look fresh, you have to be fresh.</p>
                 <p>This is where you fall into the freshest marketplace in existence. A lot of the goods
 sold here are only sold here! Enjoy!</p>
-                <div id="store_button_container"><a href="http://store.getfreshcompany.com">Shop Now</a></div> 
+                <div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Shop Now</a></div> 
             </div><!-- /.content_copy -->
         </div><!-- /#content_store -->
     </div><!-- /#container_store -->
@@ -66,6 +66,7 @@ sold here are only sold here! Enjoy!</p>
             <div class="content_copy">
                 <p>Kinlock collection it's design speaks for it self. The Collection is manufactured in
 Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock comes from the flamboyant but classy style of the designer mother "Ms. Kinlock"</p>
+ <div id="store_button_container"><a href="http://get-fresh.myshopify.com/collections/kinlock-collection">Shop Now</a></div> 
             </div><!-- /.content_copy -->
         </div><!-- /#content_kinlock -->
     </div><!-- /#container_kinlock -->
@@ -115,8 +116,8 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
         <div id="right_nav_arrow"></div>
         <div id="right_nav_links">
             <ul id="right_nav_links_container" data-speed="12" data-offsetY="0">
-                <li class="right_nav_link "><a href="#background_about"></a></li>
-                <li class="right_nav_link active"><a href="#background_events"></a></li>
+                <li class="right_nav_link active"id="top_link"><a href="#background_about"></a></li>
+                <li class="right_nav_link "><a href="#background_events"></a></li>
                 <li class="right_nav_link"><a href="#background_store"></a></li>
                 <li class="right_nav_link"><a href="#background_kinlock"></a></li>
                 <li class="right_nav_link"><a href="#background_blog"></a></li>

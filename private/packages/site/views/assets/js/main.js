@@ -190,6 +190,19 @@ $('.background').each(function(){
 
 
   }
+  
+  
+  if($window.scrollTop() < 300 ){
+
+      $("#right_nav_links_container li").removeClass('active'); 
+      $("#top_link").addClass('active');
+
+      $("#menu ul li a").removeClass('active'); 
+      $("#menu ul li a#about").addClass('active'); 
+
+
+
+  }
 
 
 
