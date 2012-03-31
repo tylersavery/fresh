@@ -1,12 +1,25 @@
 jQuery(document).ready(function(){
 
-	$(".slider").anythingSlider({
+	$(".slider-feature").anythingSlider({
 		width: 920,
 		buildNavigation: false,
 		buildStartStop: false,
 		hashTags: false,
 		delay: 2500,
 		autoPlay: true,
+		resizeContents:false
+
+
+	});
+	
+	
+	$(".slider").anythingSlider({
+		width: 920,
+		buildNavigation: false,
+		buildStartStop: false,
+		hashTags: false,
+		delay: 2500,
+		autoPlay: false,
 		resizeContents:false
 
 
