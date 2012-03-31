@@ -76,9 +76,11 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
         <div class="content" id="content_blog" data-type="sprite" data-offsetY="1760" data-Xposition="0" data-speed="2">
             <div class="content_title">Blog</div>
             <div class="content_copy">
+            
             <p>Daily updates on Get Fresh! As well as some<br /> things that we think are fresh!</p>
                 
-                <div id="blog_button_container"><a href="http://http://freshbossin.tumblr.com/">Blog</a></div> 
+                <div id="blog_button_container"><a href="http://http://freshbossin.tumblr.com/">Blog</a></div>
+                
             </div><!-- /.content_copy -->
         </div><!-- /#content_blog -->
     </div><!-- /#container_blog -->

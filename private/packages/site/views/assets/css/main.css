@@ -479,7 +479,7 @@ background-image:url(/img/site/backgrounds/contact.jpg);
 }
 
 
-#store_button_container{
+#store_button_container, #blog_button_container{
     margin-top:10px;
 }
 
