@@ -18,7 +18,7 @@ jQuery(document).ready(function(){
 		
 		
 		
-		//if(!$(this).hasClass('active')){
+		if(!$(this).hasClass('active')){
 			$(".post.freshbossin").slideUp(300, function(){
 				
 				$("#section_freshbossin").removeClass('active');
@@ -28,7 +28,7 @@ jQuery(document).ready(function(){
 			});
 			
 			$(".post.store").slideDown(300);
-		//}
+		}
 
 	});
 
@@ -36,12 +36,13 @@ jQuery(document).ready(function(){
 
 		if(!$(this).hasClass('active')){
 			$(".post.store").slideUp(300, function(){
-				$(".post.freshbossin").slideDown(300);
+			
 				$("#section_store").removeClass('active');
 				$("#section_freshbossin").addClass('active');
 				$("#menu_item_store").removeClass('active');
 				$("#menu_item_freshbossin").addClass('active');
 			});
+				$(".post.freshbossin").slideDown(300);
 		}
 
 	});
