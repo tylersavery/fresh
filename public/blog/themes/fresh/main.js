@@ -16,14 +16,18 @@ jQuery(document).ready(function(){
 
 	$(" #menu_item_store, #section_store").live('click', function(){
 		
+		
+		
 		//if(!$(this).hasClass('active')){
 			$(".post.freshbossin").slideUp(300, function(){
-				$(".post.store").slideDown(300);
+				
 				$("#section_freshbossin").removeClass('active');
 				$("#section_store").addClass('active');
 				$("#menu_item_freshbossin").removeClass('active');
 				$("#menu_item_store").addClass('active');
 			});
+			
+			$(".post.store").slideDown(300);
 		//}
 
 	});
