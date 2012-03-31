@@ -253,13 +253,17 @@ h1#logo{
 	position:relative;
 	width:100%;
 	padding-top:10px;
-	padding-bottom:10px;
+	padding-bottom:0px;
 	background-color:#000;
 }
 
-#feature_container div{
+#feature_container #posts{
 	width:920px;
 	margin: auto;
+}
+
+#feature_container #posts .anythingSlider{
+	height: 500px !important;
 }
 
 /* Posts */
