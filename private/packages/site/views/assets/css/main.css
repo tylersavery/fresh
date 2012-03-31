@@ -488,6 +488,12 @@ background-image:url(/img/site/backgrounds/contact.jpg);
     text-decoration:none;
     opacity: .8;
     text-transform:uppercase;
+    display: block;
+    width:129px;
+    height:40px;
+    text-indent: -9999px; 
+    
+    background-image: url(/img/site/storebutton.png);
 
 }
 
