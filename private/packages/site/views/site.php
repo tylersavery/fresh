@@ -35,7 +35,7 @@ fresh but still exclusive when it comes to his or hers wardrobe.</p>
         <div class="content" id="content_events" data-type="sprite" data-offsetY="550" data-Xposition="0" data-speed="2">
             <div class="content_title">Events</div>
             <div class="content_copy">
-                <p>Events is something that we specialize in… We love organizing Pop Up shops for
+                <p>Events is something that we specialize in... We love organizing Pop Up shops for
 product launches as well as in store meet in greets with your favorite artists and
 fashion shows!</p>
             </div><!-- /.content_copy -->
