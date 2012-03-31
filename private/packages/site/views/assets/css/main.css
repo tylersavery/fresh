@@ -483,7 +483,7 @@ background-image:url(/img/site/backgrounds/contact.jpg);
     margin-top:10px;
 }
 
-#store_button_container a{
+#store_button_container a, #blog_button_container a{
     color:#fff;
     text-decoration:none;
     opacity: .8;
@@ -494,10 +494,15 @@ background-image:url(/img/site/backgrounds/contact.jpg);
     text-indent: -9999px; 
     
     background-image: url(/img/site/shopbutton.png);
+    cursor: pointer;
 
 }
 
-#store_button_container a:hover{
+#blog_button_container a{
+   background-image: url(/img/site/blogbutton.png); 
+}
+
+#store_button_container a:hover, #blog_button_container a:hover{
     opacity: 1;
     -webkit-transition:opacity 0.2s ease-in;
 }
