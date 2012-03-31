@@ -151,7 +151,7 @@ $('.background').each(function(){
 
   //scroll spy
 
-  if ( ($window.scrollTop() + $window.height()) > (topOffset) &&
+  if ( ($window.scrollTop() + $window.height() - 400) > (topOffset) &&
   ( (topOffset + $self.height()) > $window.scrollTop() ) ) {
 
     if(current != $self){
@@ -208,7 +208,7 @@ $('.background').each(function(){
 
   // If this section is in view
   if ( ($window.scrollTop() + $window.height()) > (topOffset) &&
-  ( (topOffset + $self.height()) > $window.scrollTop() ) ) {
+  ( (topOffset + $self.height()) > $window.scrollTop()  ) ) {
 
     // Scroll the background at var speed
     // the yPos is a negative value because we're scrolling it UP!
