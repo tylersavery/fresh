@@ -45,7 +45,7 @@ fashion shows!</p>
     
     <!-- Store -->
     <div class="container" id="container_store">
-        <div class="background" id="background_store" data-speed="2" data-type="background"data-offsetY="730"></div>
+        <div class="background" id="background_store" data-speed="2" data-type="background"data-offsetY="700"></div>
         <div class="content" id="content_store" data-type="sprite" data-offsetY="920" data-Xposition="0" data-speed="2">
             <div class="content_title">Online Store</div>
             <div class="content_copy">
