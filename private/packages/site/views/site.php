@@ -104,9 +104,9 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
                 <div id="contact_details">
                     <span>Phone:</span>647 746 3669<br />
                     <span>Email:</span><a href="mailto:info@getfreshcompany.com">info@getfreshcompany.com</a><br />
-                    <span>Twitter:</span>@freshboss<br />
-                    <span>Facebook:</span><a href="#">Get Fresh</a><br />
-                    <span>Instagram:</span><a href="#">Freshboss</a><br />
+                    <span>Twitter:</span><a href="http://www.twitter.com/freshboss">@freshboss</a><br />
+                    <span>Facebook:</span><a href="http://www.facebook.com/getfreshco">Get Fresh</a><br />
+                    <span>Instagram:</span>Freshboss<br />
                 </div>
             </div><!-- /.content_copy -->
         </div><!-- /#content_contact -->
