@@ -52,7 +52,7 @@ fashion shows!</p>
                 <p>To look fresh, you have to be fresh.</p>
                 <p>This is where you fall into the freshest marketplace in existence. A lot of the goods
 sold here are only sold here! Enjoy!</p>
-                <div id="store_button_container"><a href="store.getfreshcompany.com">Shop Now</a></div> 
+                <div id="store_button_container"><a href="http://store.getfreshcompany.com">Shop Now</a></div> 
             </div><!-- /.content_copy -->
         </div><!-- /#content_store -->
     </div><!-- /#container_store -->
