@@ -95,12 +95,15 @@ a{
     font-weight:100;
     letter-spacing:1px;
     color:#ababab;
+    width:85px;
+    text-align: center
     
 }
 
 #menu ul li a:hover, #menu ul li a.active{
   
     color:#fff;
+    font-style: italic;
 
 }
 
