@@ -8,7 +8,8 @@ jQuery(document).ready(function(){
 		buildStartStop: false,
 		hashTags: false,
 		delay: 2500,
-		autoPlay: true
+		autoPlay: true,
+		resizeContents:false
 
 
 	});
