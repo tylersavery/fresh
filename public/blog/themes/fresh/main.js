@@ -2,9 +2,18 @@ jQuery(document).ready(function(){
 	
 	
 	var hash = getHash();
-	alert(hash);
 	if(hash == 'events'){
-		$("#section_store").click();
+	
+			$(".post.store").slideUp(300, function(){
+			
+			
+			});
+				$(".post.freshbossin").slideDown(300);
+				$("#section_store").removeClass('active');
+				$("#section_freshbossin").addClass('active');
+				$("#menu_item_store").removeClass('active');
+				$("#menu_item_freshbossin").addClass('active');
+		
 	}
 
 	$(".slider-feature").anythingSlider({
