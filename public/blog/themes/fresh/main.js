@@ -1,20 +1,7 @@
 jQuery(document).ready(function(){
 	
 	
-	var hash = getHash();
-	if(hash == 'events'){
 	
-			$(".post.store").slideUp(300, function(){
-			
-			
-			});
-				$(".post.freshbossin").slideDown(300);
-				$("#section_store").removeClass('active');
-				$("#section_freshbossin").addClass('active');
-				$("#menu_item_store").removeClass('active');
-				$("#menu_item_freshbossin").addClass('active');
-		
-	}
 
 	$(".slider-feature").anythingSlider({
 		width: 920,
@@ -77,6 +64,19 @@ jQuery(document).ready(function(){
 		}
 
 	});
+	
+	
+	var hash = getHash();
+	if(hash == 'events'){
+	
+			$(".post.store").slideUp(300);
+			$(".post.freshbossin").slideDown(300);
+			$("#section_store").removeClass('active');
+			$("#section_freshbossin").addClass('active');
+			$("#menu_item_store").removeClass('active');
+			$("#menu_item_freshbossin").addClass('active');
+		
+	}
 
 });
 
