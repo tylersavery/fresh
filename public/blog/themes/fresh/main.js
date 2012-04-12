@@ -1,4 +1,10 @@
 jQuery(document).ready(function(){
+	
+	
+	var hash = getHash();
+	if(hash == 'events'){
+		$("#section_store").click();
+	}
 
 	$(".slider-feature").anythingSlider({
 		width: 920,
@@ -63,3 +69,9 @@ jQuery(document).ready(function(){
 	});
 
 });
+
+
+function getHash() {
+  var hash = window.location.hash;
+  return hash.substring(1); // remove #
+}
