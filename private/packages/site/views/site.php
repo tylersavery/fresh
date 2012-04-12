@@ -6,9 +6,10 @@
             <ul>
                 <li><a href="#about" class="active" id="about">About Us</a></li>
                 <li><a href="#events">Events</a></li>
-                <li><a href="#store">Store</a></li>
+                <li><a href="#store">Online Store</a></li>
                 <li><a href="#kinlock">Kinlock</a></li>
                 <li><a href="#blog">Blog</a></li>
+                <li><a href="#proper">Store</a></li>
                 <li><a href="#contact" id="contact">Contact</a></li>
             </ul>
         </div><!-- /#menu -->
@@ -38,6 +39,7 @@ fresh but still exclusive when it comes to his or hers wardrobe.</p>
                 <p>Events is something that we specialize in... We love organizing Pop Up shops for
 product launches as well as in store meet in greets with your favorite artists and
 fashion shows!</p>
+ <div id="event_button_container"><a href="http://freshbossin.tumblr.com/#events">Events</a></div>
             </div><!-- /.content_copy -->
         </div><!-- /#content_events -->
     </div><!-- /#container_events -->
@@ -86,6 +88,22 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
         </div><!-- /#content_blog -->
     </div><!-- /#container_blog -->
 
+    
+    <!-- Proper -->
+    <div class="container" id="container_proper">
+        <div class="background" id="background_proper" data-speed="2" data-type="background" data-offsetY="1700"></div>
+        <div class="content" id="content_proper" data-type="sprite" data-offsetY="2000" data-Xposition="0" data-speed="2">
+            <div class="content_title">Store</div>
+            <div class="content_copy">
+            
+            <p>Proper Reserve X Get Fresh Company Collaborative store and office located at 498 Queen St W,  Toronto, Canada. We sell clothes and host events!</p>
+                
+                <div id="proper_button_container"><a href="http://freshbossin.tumblr.com/">Store</a></div>
+                
+            </div><!-- /.content_copy -->
+        </div><!-- /#content_blog -->
+    </div><!-- /#container_blog -->
+    
 
     <!-- Contact -->
     <div class="container" id="container_contact">
@@ -121,6 +139,7 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
                 <li class="right_nav_link"><a href="#background_store"></a></li>
                 <li class="right_nav_link"><a href="#background_kinlock"></a></li>
                 <li class="right_nav_link"><a href="#background_blog"></a></li>
+                <li class="right_nav_link"><a href="#background_proper"></a></li>
                 <li class="right_nav_link" id="bottom_link"><a href="#background_contact"></a></li>
             </div>
         </div>
