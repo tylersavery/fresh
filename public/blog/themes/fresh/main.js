@@ -68,6 +68,8 @@ jQuery(document).ready(function(){
 	
 	var hash = getHash();
 	if(hash == 'events'){
+		
+		alert("e v e n t");
 	
 			$(".post.store").slideUp(300);
 			$(".post.freshbossin").slideDown(300);
