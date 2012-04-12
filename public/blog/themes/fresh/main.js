@@ -69,14 +69,13 @@ jQuery(document).ready(function(){
 	var hash = getHash();
 	if(hash == 'events'){
 		
-		alert("e v e n t");
-	
-			$(".post.store").slideUp(300);
-			$(".post.freshbossin").slideDown(300);
-			$("#section_store").removeClass('active');
-			$("#section_freshbossin").addClass('active');
-			$("#menu_item_store").removeClass('active');
-			$("#menu_item_freshbossin").addClass('active');
+		$(".post.freshbossin").slideUp(300);
+			
+		$(".post.store").slideDown(300);
+		$("#section_freshbossin").removeClass('active');
+		$("#section_store").addClass('active');
+		$("#menu_item_freshbossin").removeClass('active');
+		$("#menu_item_store").addClass('active');
 		
 	}
 
