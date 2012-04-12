@@ -2,6 +2,7 @@ jQuery(document).ready(function(){
 	
 	
 	var hash = getHash();
+	alert(hash);
 	if(hash == 'events'){
 		$("#section_store").click();
 	}
