@@ -578,8 +578,19 @@ margin-left: -23px;
 	right:-250px;
 	top:0px;
     z-index: 100000;
+    opacity: .5;
+    -webkit-transition:opacity 0.25s ease-in; 
+	-moz-transition:opacity 0.25s ease-in; 
+	-o-transition:opacity 0.25s ease-in;   
+	transition:opacity 0.25s ease-in;
 
 }
+
+#social:hover{
+    opacity: 1;
+}
+
+
 
 #social .social_item a{
 	position:relative;
@@ -592,7 +603,13 @@ margin-left: -23px;
 	-webkit-transition:background-position 0.25s ease-in; 
 	-moz-transition:background-position 0.25s ease-in; 
 	-o-transition:background-position 0.25s ease-in;   
-	transition:background-position 0.25s ease-in; 
+	transition:background-position 0.25s ease-in;
+  
+    
+}
+
+#social .social_item a:hover{
+    opacity: 1;
 }
 
 #social #social_item_facebook a{
