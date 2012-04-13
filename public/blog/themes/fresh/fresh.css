@@ -127,8 +127,10 @@ h1#logo{
 }
 
 #menu .menu_item a{
-	color:#000;
-	font-size: 12px;
+	font-weight: normal;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #777;
 }
 
 
