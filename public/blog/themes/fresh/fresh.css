@@ -85,7 +85,7 @@ body{
 	position:relative;
 	width:650px;
 	margin:auto;
-	height:65px;
+	height:200px;
 	padding-top: 10px;
 	border-bottom:2px solid #000;
 }
@@ -94,9 +94,9 @@ h1#logo{
 	text-indent:-9999px;
 	position:relative;
 	margin:auto;
-	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/logo.png);
-	width:84px;
-	height:54px;
+	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/logo2.png);
+	width:149px;
+	height:169px;
 	display: block;
 
 }
@@ -141,18 +141,25 @@ h1#logo{
 }
 
 
+
 #social .social_item a{
 	position:relative;
 	float:right;
-	height:21px;
-	width:21px;
-	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/social.gif);
+	height:31px;
+	width:29px;
+	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/icons_getfresh.gif);
 	margin-left:2px;
 	text-indent:-9999px;
 	-webkit-transition:background-position 0.25s ease-in; 
 	-moz-transition:background-position 0.25s ease-in; 
 	-o-transition:background-position 0.25s ease-in;   
-	transition:background-position 0.25s ease-in; 
+	transition:background-position 0.25s ease-in;
+  
+    
+}
+
+#social .social_item a:hover{
+    opacity: 1;
 }
 
 #social #social_item_facebook a{
@@ -160,26 +167,40 @@ h1#logo{
 }
 
 #social #social_item_twitter a{
-	background-position:-21px 0px;
+	background-position:-29px 0px;
 }
 
 #social #social_item_youtube a{
-	background-position:-43px 0px;
+	background-position:-58px 0px;
 }
+#social_item_pintrest a{
+    background-position:-87px 0px;
+}
+
+#social_item_instagram a{
+    background-position:-116px 0px;
+}
+
 
 
 #social #social_item_facebook:hover a{
-	background-position:0px -21px;
+	background-position:0px -31px;
 }
 
 #social #social_item_twitter:hover a{
-	background-position:-21px -21px;
+	background-position:-29px -31px;
 }
 
 #social #social_item_youtube:hover a{
-	background-position:-43px -21px;
+	background-position:-58px -31px;
 }
 
+#social_item_pintrest:hover a{
+    background-position:-87px -31px;
+}
+ #social_item_instagram:hover a{
+	background-position:-116px -31px;
+}
 
 
 /* Sections */
