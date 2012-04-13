@@ -130,6 +130,7 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
         </div><!-- /#content_contact -->
     </div><!-- /#container_contact -->
 
+    <!--
     <div id="right_nav">
         <div id="right_nav_arrow"></div>
         <div id="right_nav_links">
@@ -144,6 +145,7 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
             </div>
         </div>
     </div>
+    -->
 
 </div><!-- /.wrap -->
 

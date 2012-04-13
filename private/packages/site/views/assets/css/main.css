@@ -135,9 +135,11 @@ a{
     width: 1280px;
     position: relative;
     margin: 0 auto;
+    background-repeat: repeat;
 
 
     box-shadow:5px 5px 15px #000;
+  
     
 }
 
@@ -200,7 +202,7 @@ a{
 /* ------------ */
 
 #background_about{
-    background: url(/img/site/backgrounds/aboutus.jpg) 50% 0 no-repeat fixed;
+    background: url(/img/site/backgrounds/aboutus.jpg) 50% 0 no-repeat fixed !important;
     z-index:20;
 }
 
@@ -216,8 +218,8 @@ a{
 /* ---------- */
 
 #background_events{
-    background: url(/img/site/backgrounds/events.jpg) 50% 0 no-repeat fixed;
-
+    background: url(/img/site/backgrounds/events.jpg) 50% 0 no-repeat fixed !important;
+   
     z-index:18;
 }
 
@@ -230,7 +232,7 @@ a{
 /* ---------- */
 
 #background_store{
-   background: url(/img/site/backgrounds/store.jpg) 50% 0 no-repeat fixed;
+   background: url(/img/site/backgrounds/store.jpg) 50% 0 no-repeat fixed !important;
 
     z-index:16;
 }
@@ -244,7 +246,7 @@ a{
 /* ---------- */
 
 #background_kinlock{
-   background: url(/img/site/backgrounds/kinlock.jpg) 50% 0 no-repeat fixed;
+   background: url(/img/site/backgrounds/kinlock.jpg) 50% 0 no-repeat fixed !important;
 
     z-index:14;
     
@@ -259,7 +261,7 @@ a{
 /* ---------- */
 
 #background_blog{
-    background: url(/img/site/backgrounds/blog.jpg) 50% 0 no-repeat fixed;
+    background: url(/img/site/backgrounds/blog.jpg) 50% 0 no-repeat fixed !important;
 
     z-index:12;
 }
@@ -282,7 +284,7 @@ a{
 /* ---------- */
 
 #background_proper{
-    background: url(/img/site/backgrounds/proper.jpg) 50% 0 no-repeat fixed;
+    background: url(/img/site/backgrounds/proper.jpg) 50% 0 no-repeat fixed !important;
 
     z-index:12;
 }

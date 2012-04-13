@@ -38,7 +38,9 @@ $(document).ready(function(){
     // Move the background
     $first.css({ marginTop: (yPos + 'px')});
   */
-   $("#menu li a, #right_nav_links_container li a").click(function(){
+  
+  
+   $("#menu li a").click(function(){
     
 
     var rel = $(this).attr('href');
@@ -59,9 +61,11 @@ $(document).ready(function(){
     
   });
   
+  
+  
 
 
-  set_arrow_position();
+  //set_arrow_position();
 
 // Cache the Y offset and the speed of each sprite
 $('[data-type]').each(function() {
@@ -70,6 +74,7 @@ $('[data-type]').each(function() {
   $(this).data('Xposition', $(this).attr('data-Xposition'));
 });
 
+/*
 $('#right_nav_links_container').each(function(){
 
   var $self = $(this),
@@ -95,6 +100,8 @@ $('#right_nav_links_container').each(function(){
 
 
 }); //#right_nav_links_container
+*/
+
 
 $('#map').each(function(){
 
@@ -160,10 +167,10 @@ $('.background').each(function(){
         current = $self;
         var id = $self.attr('id');
 
-        var target = $('li.right_nav_link a[href="#' + id + '"]');
+        //var target = $('li.right_nav_link a[href="#' + id + '"]');
         
-        $(".right_nav_link").removeClass('active');
-        target.parent().addClass('active');
+      //  $(".right_nav_link").removeClass('active');
+       // target.parent().addClass('active');
 
          //top menu
 
@@ -174,7 +181,7 @@ $('.background').each(function(){
          $("#menu ul li a").removeClass('active'); 
          top_target.addClass('active');
 
-        set_arrow_position();
+        //set_arrow_position();
 
     }
 
@@ -182,7 +189,7 @@ $('.background').each(function(){
 
   if($window.scrollTop() == $(document).height() - $window.height()){
 
-      $("#right_nav_links_container li").removeClass('active'); 
+     // $("#right_nav_links_container li").removeClass('active'); 
       $("#bottom_link").addClass('active');
 
       $("#menu ul li a").removeClass('active'); 
@@ -195,7 +202,7 @@ $('.background').each(function(){
   
   if($window.scrollTop() < 300 ){
 
-      $("#right_nav_links_container li").removeClass('active'); 
+    //  $("#right_nav_links_container li").removeClass('active'); 
       $("#top_link").addClass('active');
 
       $("#menu ul li a").removeClass('active'); 
@@ -271,6 +278,8 @@ $(window).resize(function(){
 
 
 function set_arrow_position(){
+
+    return;
 
     var $active_link = $(".right_nav_link.active");
     var offset = $active_link.offset();
@@ -351,6 +360,8 @@ var color_scheme_json = [
 
 
 function set_bar_x(){
+
+    return;
 
   var x = Math.floor(($(window).width() - 1280) / 2);
   $("#right_nav").css('right', x + 'px');

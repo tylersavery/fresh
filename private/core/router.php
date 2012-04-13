@@ -100,7 +100,7 @@ class Router {
                         }
                     break;
                 }
-                header('Content-Type: text/'.((static::$uri[0] == 'js') ? 'javascript' : 'css'));
+                header('Content-Type: ' . $mime);
                 header('Expires: Mon, 26 Jul 2025 05:00:00 GMT');
                 header('Cache-Control: max-age=315360000');
                 header('Pragma: no-cache');
