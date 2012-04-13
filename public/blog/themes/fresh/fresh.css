@@ -154,11 +154,11 @@ h1#logo{
 #menu .menu_item{
 	position:relative;
 	float:left;
-	height:10px;
+	height:18px;
 	line-height:10px;
 	font-size:8px;
 	margin-right:4px;
-	color: #727272;
+	color: #E4E4E4;
 }
 
 
@@ -178,7 +178,7 @@ h1#logo{
 #menu .menu_item.active{
 
 	
-	color: #404040;
+	color: #000;
   font-style:italic;
   font-weight:bold;
 }
