@@ -229,9 +229,20 @@ $('.background').each(function(){
 
     // Put together our final background position
     var coords = '50% '+ yPos + 'px';
+   // console.log(coords);
 
     // Move the background
     $self.css({ backgroundPosition: coords });
+    
+    
+    var is_chrome = navigator.userAgent.indexOf('Chrome') > -1;   
+    var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+    if ((is_chrome)&&(is_safari)) {is_safari=false;}
+    
+    if(is_safari){
+        $self.css({backgroundPosition: '0px 0px', backgroundAttachment: 'scroll'});
+    }
+    
     
    // var percent = $window.scrollTop() / topOffset; //- $self.data('offsetY');
 

@@ -13,6 +13,15 @@
                 <li><a href="#contact" id="contact">Contact</a></li>
             </ul>
         </div><!-- /#menu -->
+        
+       <div id="social">
+            <div class="social_item" id="social_item_instagram" title="@freshboss"><a href="#">Instagram</a></div>
+            <div class="social_item" id="social_item_pintrest"><a href="http://pinterest.com/freshboss/">Pintrest</a></div>
+            <div class="social_item" id="social_item_youtube"><a href="http://youtube.com/getfreshcompany">Youtube</a></div>
+            <div class="social_item" id="social_item_twitter"><a href="http://www.twitter.com/freshboss">Twitter</a></div>
+            <div class="social_item" id="social_item_facebook"><a href="http://www.facebook.com/getfreshco">Facebook</a></div>
+        </div><!-- /#social -->
+        
     </div><!-- /#header -->
     
     <!-- About Us -->
@@ -98,7 +107,7 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
             
             <p>Proper Reserve X Get Fresh Company Collaborative store and office located at 498 Queen St W,  Toronto, Canada. We sell clothes and host events!</p>
                 
-                <div id="proper_button_container"><a href="http://freshbossin.tumblr.com/">Store</a></div>
+                <div id="proper_button_container"><a href="http://freshbossin.tumblr.com#events">Store</a></div>
                 
             </div><!-- /.content_copy -->
         </div><!-- /#content_blog -->
