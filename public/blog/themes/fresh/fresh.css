@@ -50,6 +50,46 @@ table {
 }
 
 
+/* FONTS */
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url('http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v3/UyYrYy3ltEffJV9QueSi4Z4t0mJKPaLVqklzZuc32b4.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url('http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xGAzD5WKQVN4wSyA0MYYi4rr7w4p9aSvGirXi6XmeXNA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url('http://themes.googleusercontent.com/static/fonts/droidserif/v3/QQt14e8dY39u-eYBZmppwRbnBKKEOwRKgsHDreGcocg.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url('http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xM6Eyu0BCqAfob_z3hhzRFzr7w4p9aSvGirXi6XmeXNA.woff') format('woff');
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: bold;
+  src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url('http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v3/Q_pTky3Sc3ubRibGToTAYnhM4mdXpoxYNWk7Ev34U70.woff') format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Serif'), local('DroidSerif'), url('http://themes.googleusercontent.com/static/fonts/droidserif/v3/0AKsP294HTD-nvJgucYTaLrIa-7acMAeDBVuclsi6Gc.woff') format('woff');
+}
+
+
 /* Globals */
 
 #wrap {
@@ -127,6 +167,7 @@ h1#logo{
 }
 
 #menu .menu_item a{
+	font-family: "PT Sans Narrow";
 	font-weight: normal;
 	font-size: 16px;
 	text-transform: uppercase;
