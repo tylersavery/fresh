@@ -575,7 +575,7 @@ margin-left: -23px;
 #social{
 	position: absolute;
 	width:300px;
-	right:-250px;
+	right:-300px;
 	top:0px;
     z-index: 100000;
     opacity: .5;
