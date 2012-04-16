@@ -72,7 +72,8 @@ $(document).ready(function(){
         $("#hidden_instagram").fadeOut(300);
     
   });
-  
+
+
 
   //set_arrow_position();
 
