@@ -277,7 +277,7 @@ if(something > $window.height()){
           var y = yPos + $sprite.data('offsetY');
           
        
-          x = '49';
+          x = '0';
 
           $sprite.css('right', x + 'px').css('top', y + 'px');
           
