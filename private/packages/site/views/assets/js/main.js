@@ -167,30 +167,32 @@ $('.background').each(function(){
 
 
   //scroll spy
-
-  if ( ($window.scrollTop() + $window.height()) > (topOffset) &&
+  
+  
+  /* if the bottom of the window is greater than top offset &&
+    if the height of the background + offset is greater than the scrolltop */
+var something = $self.height();
+if(something > $window.height()){
+    something = 0;
+}
+    
+    
+  if ( ($window.scrollTop() + $window.height()) > (topOffset + something) &&
   ( (topOffset + $self.height()) > $window.scrollTop() ) ) {
 
     if(current != $self){
       
         current = $self;
         var id = $self.attr('id');
-
-        //var target = $('li.right_nav_link a[href="#' + id + '"]');
         
-      //  $(".right_nav_link").removeClass('active');
-       // target.parent().addClass('active');
+        var top_id = id.replace('background_', '');
+         
+        console.log(top_id);
 
-         //top menu
-
-         var top_id = id.replace('background_', '');
-
-         var top_target = $('#menu ul li a[href="#' + top_id + '"]')
+        var top_target = $('#menu ul li a[href="#' + top_id + '"]')
         
-         $("#menu ul li a").removeClass('active'); 
-         top_target.addClass('active');
-
-        //set_arrow_position();
+        $("#menu ul li a").removeClass('active'); 
+        top_target.addClass('active');
 
     }
 
