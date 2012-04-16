@@ -210,9 +210,9 @@ h1#logo{
 
 #hidden_instagram{
     position: absolute;
-    font-size: 15px;
+    font-size: 12px;
     color: #000;
-    top:40px;
+    top:30px;
     right: 5px;
     text-shadow: 1px 1px 1px #fff;
     display: none;
