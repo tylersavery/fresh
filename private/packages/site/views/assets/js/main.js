@@ -62,8 +62,17 @@ $(document).ready(function(){
   });
   
   
+  $("#social .social_item#social_item_instagram").mouseover(function(){
+        $("#hidden_instagram").fadeIn(300);
+    
+  });
   
-
+  
+ $("#social .social_item#social_item_instagram").mouseout(function(){
+        $("#hidden_instagram").fadeOut(300);
+    
+  });
+  
 
   //set_arrow_position();
 

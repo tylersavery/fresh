@@ -12,15 +12,19 @@
                 <li><a href="#proper">Store</a></li>
                 <li><a href="#contact" id="contact">Contact</a></li>
             </ul>
-        </div><!-- /#menu -->
-        
-       <div id="social">
+            
+            
+         <div id="social">
             <div class="social_item" id="social_item_instagram" title="@freshboss"><a href="#">Instagram</a></div>
             <div class="social_item" id="social_item_pintrest"><a href="http://pinterest.com/freshboss/">Pintrest</a></div>
             <div class="social_item" id="social_item_youtube"><a href="http://youtube.com/getfreshcompany">Youtube</a></div>
             <div class="social_item" id="social_item_twitter"><a href="http://www.twitter.com/freshboss">Twitter</a></div>
             <div class="social_item" id="social_item_facebook"><a href="http://www.facebook.com/getfreshco">Facebook</a></div>
-        </div><!-- /#social -->
+            <div id="hidden_instagram">freshboss</div>
+        </div><!-- /#social -->   
+        </div><!-- /#menu -->
+        
+       
         
     </div><!-- /#header -->
     
