@@ -212,9 +212,9 @@ h1#logo{
     position: absolute;
     font-size: 12px;
     color: #000;
-    top:35px;
+    top:34px;
 	font-weight: bold;
-    right: 5px;
+    right: 0px;
     text-shadow: 1px 1px 1px #fff;
     display: none;
 }
