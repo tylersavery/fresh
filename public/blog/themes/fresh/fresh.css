@@ -347,6 +347,7 @@ h1#logo{
 
 #feature_container #posts .anythingSlider{
 	height: 340px !important;
+	left: 0px;
 
 }
 
