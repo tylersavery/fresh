@@ -41,7 +41,16 @@ class Config {
         define('ROOT_PACKAGE', 'site');
 
         switch (ENVIRONMENT) {
-
+            case 'getfreshcompany.com':
+            case 'www.getfreshcompany.com':
+                define('MODE', 'PRODUCTION');
+                define('DB_HOST', '127.0.0.1');
+                define('DB_USER', 'fresh');
+                define('DB_PASS', 'aiNgahBu3wah');
+                define('DB_NAME', 'fresh');
+                define('DB_SALT', '0c280e4ea00a8626830d0368a01e8da7');
+            break;
+        
             case 'fresh.theyoungastronauts.com':
                 define('MODE', 'PRODUCTION');
                 define('DB_HOST', '127.0.0.1');
