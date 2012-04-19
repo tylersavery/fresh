@@ -413,7 +413,7 @@ h1#logo{
 .post .post_caption{
 	position: absolute;
 	bottom: 90px;
-	left: 0px;
+	left: 210px;
 	width:480px;
 	padding: 12px 10px 12px 10px;
 	background-color: rgba(0,0,0,.8);
@@ -423,7 +423,6 @@ h1#logo{
 	font-size: 12px;
 	font-weight: bold;
 	line-height: 15px;
-	
 }
 
 .post .post_caption a{
