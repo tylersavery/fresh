@@ -401,7 +401,8 @@ h1#logo{
 }
 
 .post img{
-	width:920px;
+	width:500px;
+	margin: auto;
 }
 
 
