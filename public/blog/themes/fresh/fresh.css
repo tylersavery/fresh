@@ -470,3 +470,12 @@ h1#logo{
 	height:64px;
 	margin:-6px auto;
 }
+
+
+/* ADD THIS */
+
+.addthis_toolbox{
+	padding-left:390px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
