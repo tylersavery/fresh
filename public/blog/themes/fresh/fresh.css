@@ -347,7 +347,7 @@ h1#logo{
 
 #feature_container #posts .anythingSlider{
 	height: 340px !important;
-	left: 0px;
+
 
 }
 
@@ -389,7 +389,7 @@ h1#logo{
 .post .post_date{
 	position:absolute;
 	top:8px;
-	right:216px;
+	right:0px;
 	height:26px;
 	line-height:26px;
 	background-color:rgba(0,0,0,.8);
@@ -414,8 +414,6 @@ h1#logo{
 .post .post_caption{
 	position: absolute;
 	bottom: 30px;
-	left: 210px;
-	width:480px;
 	padding: 12px 10px 12px 10px;
 	background-color: rgba(0,0,0,.8);
 	text-align: center;
