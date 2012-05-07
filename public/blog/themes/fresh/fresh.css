@@ -309,9 +309,19 @@ h1#logo{
 }
 
 #section_events{
+	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/section2.jpg);
+}
+
+#section_498{
+	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/section2.jpg);
+}
+
+#section_doyou{
 	margin-right:0px;
 	background-image:url(http://fresh.theyoungastronauts.com/blog/themes/fresh/images/section2.jpg);
 }
+
+
 
 .section h3{
 	display: block;
