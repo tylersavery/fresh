@@ -1,3 +1,5 @@
+var first_show = true;
+
 jQuery(document).ready(function(){
 	
 	
@@ -70,13 +72,20 @@ function getHash() {
 
 function show_page(page){
 	
+	if(first_show){
+		time = 0;
+	} else {
+		time = 300;
+	}
 	
-	$(".post").slideUp(300);
+	$(".post").slideUp(time);
 	$(".section").removeClass('active');
 	$(".menu_item").removeClass('active');
 			
-	$(".post." + page).slideDown(300);
+	$(".post." + page).slideDown(time);
 	$("#section_" + page).addClass('active');
 	$("#menu_item_" + page).addClass('active');
+	
+	first_show = false;
 	
 }
