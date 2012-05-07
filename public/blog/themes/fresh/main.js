@@ -54,17 +54,11 @@ jQuery(document).ready(function(){
 	
 	
 	var hash = getHash();
-	if(hash == 'events'){
-		
-		$(".post.freshbossin").slideUp(300);
-			
-		$(".post.store").slideDown(300);
-		$("#section_freshbossin").removeClass('active');
-		$("#section_store").addClass('active');
-		$("#menu_item_freshbossin").removeClass('active');
-		$("#menu_item_store").addClass('active');
-		
+	if(hash != ''){
+		show_page(hash);
 	}
+	
+	show_page('freshbossin');
 
 });
 
