@@ -76,12 +76,13 @@ function getHash() {
 
 function show_page(page){
 	
-	console.log(page);
 	
 	$(".post").slideUp(300);
-	$(".post").removeClass('active');
+	$(".section").removeClass('active');
+	$(".menu_item").removeClass('active');
 			
 	$(".post." + page).slideDown(300);
 	$("#section_" + page).addClass('active');
+	$("#menu_item_" + page).addClass('active');
 	
 }
