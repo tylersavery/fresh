@@ -41,37 +41,13 @@ jQuery(document).ready(function(){
 	});
 
 
-	$(" #menu_item_store, #section_store").live('click', function(){
+
+	$(".menu_item, .section").click(function(){
 		
-		
+		var page = $(this).attr('rel');
 		
 		if(!$(this).hasClass('active')){
-			$(".post.freshbossin").slideUp(300, function(){
-				
-			
-			});
-			
-			$(".post.store").slideDown(300);
-				$("#section_freshbossin").removeClass('active');
-				$("#section_store").addClass('active');
-				$("#menu_item_freshbossin").removeClass('active');
-				$("#menu_item_store").addClass('active');
-		}
-
-	});
-
-	$("#section_freshbossin, #menu_item_freshbossin").click(function(){
-
-		if(!$(this).hasClass('active')){
-			$(".post.store").slideUp(300, function(){
-			
-			
-			});
-				$(".post.freshbossin").slideDown(300);
-				$("#section_store").removeClass('active');
-				$("#section_freshbossin").addClass('active');
-				$("#menu_item_store").removeClass('active');
-				$("#menu_item_freshbossin").addClass('active');
+			show_page(page);
 		}
 
 	});
@@ -96,4 +72,14 @@ jQuery(document).ready(function(){
 function getHash() {
   var hash = window.location.hash;
   return hash.substring(1); // remove #
+}
+
+function show_page(page){
+	
+	$(".post").slideUp(300);
+	$(".post").removeClass('active');
+			
+	$(".post." + page).slideDown(300);
+	$("#section_" + page).addClass('active');
+	
 }
