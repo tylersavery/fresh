@@ -76,6 +76,8 @@ function getHash() {
 
 function show_page(page){
 	
+	console.log(page);
+	
 	$(".post").slideUp(300);
 	$(".post").removeClass('active');
 			
