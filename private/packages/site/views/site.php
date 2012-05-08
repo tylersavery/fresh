@@ -95,7 +95,7 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
             
             <p>Daily updates on Get Fresh! As well as some<br /> things that we think are fresh!</p>
                 
-                <div id="blog_button_container"><a href="http://freshbossin.tumblr.com/">Blog</a></div>
+                <div id="blog_button_container"><a href="http://freshbossin.com/">Blog</a></div>
                 
             </div><!-- /.content_copy -->
         </div><!-- /#content_blog -->
@@ -111,7 +111,7 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
             
             <p>Proper Reserve X Get Fresh Company Collaborative store and office located at 498 Queen St W,  Toronto, Canada. We sell clothes and host events!</p>
                 
-                <div id="proper_button_container"><a href="http://freshbossin.tumblr.com#events">Store</a></div>
+                <div id="proper_button_container"><a href="http://freshbossin.com/#498">Store</a></div>
                 
             </div><!-- /.content_copy -->
         </div><!-- /#content_blog -->
