@@ -58,9 +58,11 @@ jQuery(document).ready(function(){
 	var hash = getHash();
 	if(hash != ''){
 		show_page(hash);
+	} else {
+		show_page('freshbossin');
 	}
 	
-	show_page('freshbossin');
+	
 
 });
 
