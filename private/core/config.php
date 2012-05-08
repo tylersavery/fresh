@@ -24,10 +24,10 @@ class Config {
      */
     public static function init() {
         
-        static::$packages = new \SplFixedArray(2);
+        static::$packages = new \SplFixedArray(3);
         static::$packages[0] = 'nest';
         static::$packages[1] = 'sample';
-        static::$packages[1] = 'PinGenerator';
+        static::$packages[2] = 'PinGenerator';
 
         define('ENVIRONMENT', $_SERVER['SERVER_NAME']);
         define('PRIVATE_ROOT', DOCUMENT_ROOT.'private'.DS);
