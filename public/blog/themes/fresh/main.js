@@ -59,13 +59,15 @@ function show_page(page){
 	
 	current_page = page;
 	
-	$(".post").slideUp(time);
+	$(".post").hide();
 	$(".section").removeClass('active');
 	$(".menu_item").removeClass('active');
 			
-	$(".post." + page).slideDown(time);
+	$(".post." + page).show();
 	$("#section_" + page).addClass('active');
 	$("#menu_item_" + page).addClass('active');
+	
+	init_sliders();
 	
 	first_show = false;
 	
