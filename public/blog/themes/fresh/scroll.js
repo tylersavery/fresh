@@ -226,6 +226,7 @@ var tumblrAutoPager = {
                 tAP.rF = false;
                 p++;
                 sendRequest(addNextPage, "", "GET", "http://" + tAP.LN + "/page/" + p, true);
+                show_page(curent_page);
             }
             setTimeout(arguments.callee, 200);
         };

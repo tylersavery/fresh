@@ -1,4 +1,5 @@
 var first_show = true;
+var current_page;
 
 jQuery(document).ready(function(){
 	
@@ -78,6 +79,8 @@ function show_page(page){
 	} else {
 		time = 300;
 	}
+	
+	current_page = page;
 	
 	$(".post").slideUp(time);
 	$(".section").removeClass('active');
