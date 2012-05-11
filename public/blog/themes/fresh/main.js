@@ -4,7 +4,7 @@ var current_page;
 jQuery(document).ready(function(){
 	
 	
-	
+	load_all_posts();
 
 	$(".slider-feature").anythingSlider({
 		width: 920,
@@ -91,5 +91,20 @@ function show_page(page){
 	$("#menu_item_" + page).addClass('active');
 	
 	first_show = false;
+	
+}
+
+
+function load_all_posts(){
+	
+   var totalPages = $("#hidden_navinfo .totalpages").text();
+   for ( var i = 1, len = totalPages; i < len; i++) {
+		var count = i+1;
+		var new_posts = "";
+		$.get("/page/" + count, function(data) {
+		 	$("#posts").append($('.page', $(data)));
+		});
+
+	}
 	
 }
