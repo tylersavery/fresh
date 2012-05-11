@@ -105,7 +105,7 @@ function load_all_posts(){
 		$.get("/page/" + count, function(data) {
 		 	//$("#posts").append($('#posts', $(data)));
 			//$("#newposts").append(data);
-			html += data;
+			html += $(data);
 			
 		
 		});
