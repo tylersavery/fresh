@@ -102,14 +102,12 @@ function load_all_posts(){
 		var count = i+1;
 		var new_posts = "";
 		$.get("/page/" + count, function(data) {
-		 	$("#posts").append($('.page', $(data)));
+		 	$("#posts").append($('#posts', $(data)));
 		
 			console.log(data);
 		
 		});
 			
 	}
-	
-	
 	
 }
