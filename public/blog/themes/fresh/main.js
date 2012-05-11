@@ -30,7 +30,6 @@ jQuery(document).ready(function(){
 
 	});
 
-	$(".post.store").hide();
 	
 	$("#social .social_item#social_item_instagram").mouseover(function(){
 	  $("#hidden_instagram").fadeIn(300);
@@ -80,7 +79,7 @@ function show_page(page){
 		time = 300;
 	}
 	
-	$(".post").slideUp(time);
+	//$(".post").slideUp(time);
 	$(".section").removeClass('active');
 	$(".menu_item").removeClass('active');
 			
