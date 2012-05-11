@@ -6,30 +6,7 @@ jQuery(document).ready(function(){
 	
 	load_all_posts();
 
-	$(".slider-feature").anythingSlider({
-		width: 920,
-		buildNavigation: false,
-		buildStartStop: false,
-		hashTags: false,
-		delay: 2500,
-		autoPlay: true,
-		resizeContents:false
 
-
-	});
-	
-	
-	$(".slider").anythingSlider({
-		width: 920,
-		buildNavigation: false,
-		buildStartStop: false,
-		hashTags: false,
-		delay: 2500,
-		autoPlay: false,
-		resizeContents:false
-
-
-	});
 
 	
 	$("#social .social_item#social_item_instagram").mouseover(function(){
@@ -106,12 +83,45 @@ function load_all_posts(){
 		 	//$("#posts").append($('#posts', $(data)));
 			//$("#newposts").append(data);
 			
-			console.log($('#posts', $(data)));
+			//console.log($('#posts', $(data)));
 						
-			
-			$("#newposts").append($('#feature_container ', $(data)));
 			$("#newposts").append($('#posts', $(data)));
+			
+			
+			init_sliders();
+			
 		});
 	}
+
 	
+}
+
+
+
+function init_sliders(){
+		
+	$(".slider-feature").anythingSlider({
+				width: 920,
+				buildNavigation: false,
+				buildStartStop: false,
+				hashTags: false,
+				delay: 2500,
+				autoPlay: true,
+				resizeContents:false
+		
+		
+	});
+	
+	
+	$(".slider").anythingSlider({
+		width: 920,
+		buildNavigation: false,
+		buildStartStop: false,
+		hashTags: false,
+		delay: 2500,
+		autoPlay: false,
+		resizeContents:false
+
+
+	});
 }
