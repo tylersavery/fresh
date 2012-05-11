@@ -89,6 +89,8 @@ function load_all_posts(){
 			
 			
 			init_sliders();
+			show_page(current_page);
+			
 			
 		});
 	}
