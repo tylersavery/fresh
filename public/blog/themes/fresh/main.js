@@ -103,7 +103,7 @@ function load_all_posts(){
 		var new_posts = "";
 		$.get("/page/" + count, function(data) {
 		 	//$("#posts").append($('#posts', $(data)));
-			//$("#newposts").insertAfter($(data));
+			$("#newposts").append($(data));
 		
 			console.log(data);
 		
