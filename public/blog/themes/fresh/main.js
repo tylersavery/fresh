@@ -79,7 +79,7 @@ function show_page(page){
 		time = 300;
 	}
 	
-	//$(".post").slideUp(time);
+	$(".post").slideUp(time);
 	$(".section").removeClass('active');
 	$(".menu_item").removeClass('active');
 			
