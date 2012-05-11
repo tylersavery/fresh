@@ -101,13 +101,16 @@ function load_all_posts(){
    for ( var i = 1, len = totalPages; i < len; i++) {
 		var count = i+1;
 		var new_posts = "";
+		var html = "";
 		$.get("/page/" + count, function(data) {
 		 	//$("#posts").append($('#posts', $(data)));
 			//$("#newposts").append(data);
-			$("#newposts").append('THis is where the data should go');
-			console.log(data);
+			html += data;
+			
 		
 		});
+		console.log(html);
+		$("#newposts").append(html);
 			
 	}
 	
