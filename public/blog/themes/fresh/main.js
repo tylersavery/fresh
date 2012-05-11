@@ -106,7 +106,7 @@ function load_all_posts(){
 		 	//$("#posts").append($('#posts', $(data)));
 			//$("#newposts").append(data);
 			
-			console.log($('#feature_container ', $(data)));
+			console.log($('#posts', $(data)));
 						
 			
 			$("#newposts").append($('#feature_container ', $(data)));
