@@ -132,5 +132,9 @@ function init_sliders(){
 
 
 function init_addthis(){
-	addthis.init();
+	var script = 'http://s7.addthis.com/js/250/addthis_widget.js#domready=1';
+	if (window.addthis){
+		window.addthis = null;
+	}
+	$.getScript( script );
 }
