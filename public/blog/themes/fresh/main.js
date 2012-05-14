@@ -132,5 +132,5 @@ function init_sliders(){
 
 
 function init_addthis(){
-	initAddThis();
+	addthis.init();
 }
