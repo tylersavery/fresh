@@ -89,9 +89,9 @@ function load_all_posts(){
 						
 			$("#newposts").append($('#posts', $(data)));
 			
-			
 			init_sliders();
 			show_page(current_page);
+			init_addthis();
 			
 			
 		});
@@ -128,4 +128,9 @@ function init_sliders(){
 
 
 	});
+}
+
+
+function init_addthis(){
+	initAddThis();
 }
