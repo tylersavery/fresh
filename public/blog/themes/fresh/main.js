@@ -51,6 +51,16 @@ function getHash() {
 
 function show_page(page){
 	
+	var splittedUrl = url.split("/");
+	var depth = 5;
+	var url1 =  splittedUrl[0] + '/';
+	
+
+	if(url1 == 'post'){
+		var donthide = true;
+	}
+	
+	
 	if(first_show){
 		time = 0;
 	} else {
@@ -59,13 +69,15 @@ function show_page(page){
 	
 	current_page = page;
 	
-	$(".post").hide();
-	$(".section").removeClass('active');
-	$(".menu_item").removeClass('active');
-			
-	$(".post." + page).show();
-	$("#section_" + page).addClass('active');
-	$("#menu_item_" + page).addClass('active');
+	if(donthide){
+		$(".post").hide();
+		$(".section").removeClass('active');
+		$(".menu_item").removeClass('active');
+				
+		$(".post." + page).show();
+		$("#section_" + page).addClass('active');
+		$("#menu_item_" + page).addClass('active');
+	}
 	
 	init_sliders();
 	
