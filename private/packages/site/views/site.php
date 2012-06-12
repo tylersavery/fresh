@@ -34,10 +34,7 @@
         <div class="content" id="content_about" data-type="sprite" data-offsetY="280" data-Xposition="0" data-speed="1">
             <div class="content_title">About Us</div>
             <div class="content_copy">
-                <p>Get Fresh Company, started in Toronto, Canada back in 2009. This company was
-created to design, market and sell the freshest garments that can come to mind. I
-feel that there needs to be a marketplace for the person that likes to keep it loud
-fresh but still exclusive when it comes to his or hers wardrobe.</p>
+                <p>The Get Fresh Company began in 2009, in Toronto, Canada. It was created to design, market and distribute the freshest garments. The Get Fresh Company is the ideal marketplace for anyone who likes to keep their wardrobe loud, fresh and exclusive.</p>
             </div><!-- /.content_copy -->
         </div><!-- /#content_about -->
     </div><!-- /#container_about -->
@@ -49,9 +46,7 @@ fresh but still exclusive when it comes to his or hers wardrobe.</p>
         <div class="content" id="content_events" data-type="sprite" data-offsetY="550" data-Xposition="0" data-speed="2">
             <div class="content_title">Events</div>
             <div class="content_copy">
-                <p>Events is something that we specialize in... We love organizing Pop Up shops for
-product launches as well as in store meet in greets with your favorite artists and
-fashion shows!</p>
+                <p>The Get Fresh Company specializes in organizing and hosting events, such as pop up shops for product launches, fashion shows and celebrity meet and greets.</p>
  <div id="event_button_container"><a href="http://freshbossin.tumblr.com/#events">Events</a></div>
             </div><!-- /.content_copy -->
         </div><!-- /#content_events -->
@@ -65,8 +60,7 @@ fashion shows!</p>
             <div class="content_title">Online Store</div>
             <div class="content_copy">
                 <p>To look fresh, you have to be fresh.</p>
-                <p>This is where you fall into the freshest marketplace in existence. A lot of the goods
-sold here are only sold here! Enjoy!</p>
+                <p>The Get Fresh Company online store is the freshest marketplace in existence. Many products are exclusively sold here only. Enjoy!</p>
                 <div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Shop Now</a></div> 
             </div><!-- /.content_copy -->
         </div><!-- /#content_store -->
@@ -79,8 +73,7 @@ sold here are only sold here! Enjoy!</p>
         <div class="content" id="content_kinlock" data-type="sprite" data-offsetY="1310" data-Xposition="50%" data-speed="2">
             <div class="content_title">Kinlock Collection</div>
             <div class="content_copy">
-                <p>Kinlock collection it's design speaks for it self. The Collection is manufactured in
-Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock comes from the flamboyant but classy style of the designer mother "Ms. Kinlock"</p>
+                <p>The Kinlock Collections luxorios design speaks for itself. The collection is designed in Toronto, then manufactured in Dubai. The name "Kinlock Collection" itself is inspired by the flamboyant, yet classy, style of the designer's late mother, Ms. Kinlock.</p>
  <div id="store_button_container"><a href="http://get-fresh.myshopify.com/collections/kinlock-collection">Shop Now</a></div> 
             </div><!-- /.content_copy -->
         </div><!-- /#content_kinlock -->
@@ -93,7 +86,7 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
             <div class="content_title">Blog</div>
             <div class="content_copy">
             
-            <p>Daily updates on Get Fresh! As well as some<br /> things that we think are fresh!</p>
+            <p>Visit the Get Fresh Company blog for daily updates. &nbsp; OR<br />    Visit the blog for daily updates on the Get Fresh Company.</p>
                 
                 <div id="blog_button_container"><a href="http://freshbossin.com/">Blog</a></div>
                 
@@ -109,13 +102,7 @@ Dubai and designed in Toronto, Canada and started back in 2010. The name Kinlock
             <div class="content_title">Store</div>
             <div class="content_copy">
             
-            <p>Proper Reserve X Get Fresh Company Collaborative store and office located at 498 Queen St W,  Toronto, Canada. We sell clothes and host events!</p>
-                
-                
-                
-                
-                
-                
+            <p>The Proper Reserve X Get Fresh Company collaborative store and office is located at 498 Queen Street West, Toronto, Canada.</p>
                 
                 <div id="proper_button_container"><a href="http://freshbossin.com/#498">Store</a></div>
                 
