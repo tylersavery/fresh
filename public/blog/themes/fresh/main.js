@@ -4,7 +4,7 @@ var current_page;
 jQuery(document).ready(function(){
 	
 	
-	//load_all_posts();
+	load_all_posts();
 
 
 
@@ -58,6 +58,8 @@ function show_page(page){
 
 	if(url1 == 'post'){
 		var donthide = true;
+	} else {
+		var donthide = false;
 	}
 	
 	
@@ -69,7 +71,7 @@ function show_page(page){
 	
 	current_page = page;
 	
-	if(donthide){
+	if(!donthide){
 		$(".post").hide();
 	}
 	
