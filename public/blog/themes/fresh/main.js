@@ -4,7 +4,7 @@ var current_page;
 jQuery(document).ready(function(){
 	
 	
-	load_all_posts();
+	//load_all_posts();
 
 
 
