@@ -369,6 +369,11 @@ h1#logo{
 
 }
 
+.slider.anythingBase{
+	height: 340px !important;
+	width: 920px !important;
+}
+
 
 #feature_container #posts .anythingSlider  .arrow a {
 	background: url(images/anythingslider_dark.png) no-repeat;
