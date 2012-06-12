@@ -52,9 +52,9 @@ function getHash() {
 function show_page(page){
 	
 	var splittedUrl = window.location.href.split("/");
-	console.log(splittedUrl[0]);
+	console.log(splittedUrl[3]);
 	var depth = 5;
-	var url1 =  splittedUrl[0] + '/';
+	var url1 =  splittedUrl[3] + '/';
 	
 
 	if(url1 == 'post'){
