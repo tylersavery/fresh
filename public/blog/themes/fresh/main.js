@@ -52,7 +52,6 @@ function getHash() {
 function show_page(page){
 	
 	var splittedUrl = window.location.href.split("/");
-	console.log(splittedUrl[3]);
 	var depth = 5;
 	var url1 =  splittedUrl[3] + '/';
 	
