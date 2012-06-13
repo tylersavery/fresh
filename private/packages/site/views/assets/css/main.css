@@ -273,7 +273,7 @@ a{
 }
 
 #container_blog .content{
-    width:400px;
+    width:480px;
 }
 
 
@@ -314,7 +314,7 @@ a{
 
 #container_contact #content_contact{
     background:rgba(0,0,0, .8);
-    right:50px;
+    right:0px;
     top:50%;
     margin-top:-136px;
     width:400px;
@@ -400,13 +400,13 @@ a{
     background-color:#000;
     position: absolute;
     bottom:-8px;
-    width:400px;
+    width:480px;
 }
 
 #container_blog .content_title{
     border-bottom:5px solid #000;
     color:#000;
-    width:400px;
+    width:480px;
     
 }
 
