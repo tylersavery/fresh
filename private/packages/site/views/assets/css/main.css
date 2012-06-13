@@ -273,7 +273,7 @@ a{
 }
 
 #container_blog .content{
-    width:480px;
+    width:490px;
 }
 
 
@@ -400,13 +400,13 @@ a{
     background-color:#000;
     position: absolute;
     bottom:-8px;
-    width:480px;
+    width:490px;
 }
 
 #container_blog .content_title{
     border-bottom:5px solid #000;
     color:#000;
-    width:480px;
+    width:490px;
     
 }
 
