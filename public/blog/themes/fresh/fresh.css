@@ -412,7 +412,7 @@ h1#logo{
 
 .post .post_date{
 	position:absolute;
-	top:8px;
+	top:-8px;
 	right:0px;
 	height:26px;
 	line-height:26px;
