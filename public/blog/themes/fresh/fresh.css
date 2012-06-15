@@ -436,8 +436,8 @@ h1#logo{
 
 
 .post .post_caption{
-	position: absolute;
-	bottom: 60px;
+	position: relative;
+	margin-top:20px;
 	padding: 12px 10px 12px 10px;
 	width:900px;
 	background-color: rgba(0,0,0,.8);
