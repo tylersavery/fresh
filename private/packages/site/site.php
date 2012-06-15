@@ -10,9 +10,17 @@ class site extends \Pigeon\Package\Base {
 	static $dependencies = array();
 	
 	public static $routes = array(
+		'site\Controller\Redirect' => array(
+	        array('theblog'),
+			array('events'),
+			array('498'),
+			array('dygf')
+		),
 	    'site\Controller\site' => array(
 	        array('')
 	    )
+		
     );
 	
 }
+
