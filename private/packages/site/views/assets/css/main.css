@@ -138,7 +138,7 @@ a{
     background-repeat: repeat;
     
     background-position: 0px 0px;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment:fixed;
     box-shadow:5px 5px 15px #000;
   
