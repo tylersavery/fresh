@@ -504,6 +504,10 @@ h1#logo{
 	text-align: left;
 }
 
+.post .title p{
+	display: none;
+}
+
 
 
 /* ADD THIS */
