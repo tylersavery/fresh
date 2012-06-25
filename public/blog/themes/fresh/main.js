@@ -133,7 +133,7 @@ function init_sliders(){
 	});
 	
 	
-
+/*
 	
 	$(".slider").anythingSlider({
 		//width: 920,
@@ -142,11 +142,11 @@ function init_sliders(){
 		hashTags: false,
 		delay: 2500,
 		autoPlay: false,
-		resizeContents:true
+		resizeContents:false
 
 	});
 
-	
+*/	
 
 }
 
