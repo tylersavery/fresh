@@ -122,15 +122,13 @@ function load_all_posts(){
 function init_sliders(){
 		
 	$(".slider-feature").anythingSlider({
-				width: 920,
-				buildNavigation: false,
-				buildStartStop: false,
-				hashTags: false,
-				delay: 2500,
-				autoPlay: true,
-				resizeContents:false
-		
-		
+		width: 920,
+		buildNavigation: false,
+		buildStartStop: false,
+		hashTags: false,
+		delay: 2500,
+		autoPlay: true,
+		resizeContents:false		
 	});
 	
 	
