@@ -136,7 +136,7 @@ function init_sliders(){
 	$(".slider").each(function(){
 		
 		$(this).anythingSlider({
-			width: 920,
+			//width: 920,
 			buildNavigation: false,
 			buildStartStop: false,
 			hashTags: false,
