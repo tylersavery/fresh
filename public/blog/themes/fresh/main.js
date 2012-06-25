@@ -142,8 +142,7 @@ function init_sliders(){
 			hashTags: false,
 			delay: 2500,
 			autoPlay: false,
-			resizeContents:false,
-			infiniteSlides:false
+			resizeContents:false
 	
 		});
 		
