@@ -74,14 +74,14 @@ function show_page(page){
 	
 	if(!donthide){
 		$(".post").hide();
-		$(".slider").hide();
+		//$(".slider").hide();
 	}
 	
 	$(".section").removeClass('active');
 	$(".menu_item").removeClass('active');
 			
 	$(".post." + page).show();
-	$(".slider." + page).show();
+	//$(".slider." + page).show();
 	$("#section_" + page).addClass('active');
 	$("#menu_item_" + page).addClass('active');
 	
