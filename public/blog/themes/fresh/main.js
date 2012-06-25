@@ -133,7 +133,7 @@ function init_sliders(){
 	});
 	
 	
-/*
+
 	
 	$(".slider").anythingSlider({
 		//width: 920,
@@ -146,7 +146,7 @@ function init_sliders(){
 
 	});
 
-*/	
+	
 
 }
 
