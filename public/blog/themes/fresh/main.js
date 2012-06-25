@@ -55,7 +55,6 @@ function show_page(page){
 	var depth = 5;
 	var url1 =  splittedUrl[3] + '/';
 	
-	console.log(uri1);
 	if(url1 == 'post'){
 		var donthide = true;
 	} else {
