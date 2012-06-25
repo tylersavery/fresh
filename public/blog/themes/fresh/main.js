@@ -143,7 +143,7 @@ function init_sliders(){
 			delay: 2500,
 			autoPlay: false,
 			resizeContents:true,
-			infiniteSlides:true
+			infiniteSlides:false
 	
 		});
 		
