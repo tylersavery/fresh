@@ -133,20 +133,19 @@ function init_sliders(){
 	});
 	
 	
-	$(".slider").each(function(){
-		
-		$(this).anythingSlider({
-			//width: 920,
-			buildNavigation: false,
-			buildStartStop: false,
-			hashTags: false,
-			delay: 2500,
-			autoPlay: false,
-			resizeContents:false
+
 	
-		});
-		
+	$(".slider").anythingSlider({
+		//width: 920,
+		buildNavigation: false,
+		buildStartStop: false,
+		hashTags: false,
+		delay: 2500,
+		autoPlay: false,
+		resizeContents:false
+
 	});
+
 	
 
 }
