@@ -55,12 +55,13 @@ function show_page(page){
 	var depth = 5;
 	var url1 =  splittedUrl[3] + '/';
 	
+	/*
 	if(url1 == 'post'){
 		var donthide = true;
 	} else {
 		var donthide = false;
 	}
-	
+	*/
 	
 	if(first_show){
 		time = 0;
