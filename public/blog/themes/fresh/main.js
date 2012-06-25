@@ -128,7 +128,8 @@ function init_sliders(){
 		hashTags: false,
 		delay: 2500,
 		autoPlay: true,
-		resizeContents:false		
+		resizeContents:false
+
 	});
 	
 	
@@ -139,8 +140,8 @@ function init_sliders(){
 		hashTags: false,
 		delay: 2500,
 		autoPlay: false,
-		resizeContents:true
-
+		resizeContents:true,
+		infiniteSlides:true
 
 	});
 }
