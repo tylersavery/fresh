@@ -133,17 +133,23 @@ function init_sliders(){
 	});
 	
 	
-	$(".slider").anythingSlider({
-		width: 920,
-		buildNavigation: false,
-		buildStartStop: false,
-		hashTags: false,
-		delay: 2500,
-		autoPlay: false,
-		resizeContents:true,
-		infiniteSlides:true
-
+	$(".slider").each(function(){
+		
+		$(this).anythingSlider({
+			width: 920,
+			buildNavigation: false,
+			buildStartStop: false,
+			hashTags: false,
+			delay: 2500,
+			autoPlay: false,
+			resizeContents:true,
+			infiniteSlides:true
+	
+		});
+		
 	});
+	
+
 }
 
 
