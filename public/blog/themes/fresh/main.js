@@ -51,6 +51,7 @@ function getHash() {
 
 function show_page(page){
 	
+	
 	var splittedUrl = window.location.href.split("/");
 	var depth = 5;
 	var url1 =  splittedUrl[3] + '/';
@@ -73,12 +74,14 @@ function show_page(page){
 	
 	if(!donthide){
 		$(".post").hide();
+		$(".slider").hide();
 	}
 	
 	$(".section").removeClass('active');
 	$(".menu_item").removeClass('active');
 			
 	$(".post." + page).show();
+	$(".slider." + page).show();
 	$("#section_" + page).addClass('active');
 	$("#menu_item_" + page).addClass('active');
 	
@@ -136,7 +139,7 @@ function init_sliders(){
 
 	
 	$(".slider").anythingSlider({
-		//width: 920,
+		width: 920,
 		buildNavigation: false,
 		buildStartStop: false,
 		hashTags: false,
