@@ -61,7 +61,7 @@
             <div class="content_copy">
                 <p>To look fresh, you have to be fresh.</p>
                 <p>The Get Fresh Company online store is the freshest marketplace in existence. Many products are exclusively sold here only. Enjoy!</p>
-                <div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Shop Now</a></div> 
+                <!--<div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Shop Now</a></div> -->
             </div><!-- /.content_copy -->
         </div><!-- /#content_store -->
     </div><!-- /#container_store -->
@@ -74,7 +74,7 @@
             <div class="content_title">Kinlock Collection</div>
             <div class="content_copy">
                 <p>The Kinlock Collections luxorios design speaks for itself. The collection is designed in Toronto, then manufactured in Dubai. The name "Kinlock Collection" itself is inspired by the flamboyant, yet classy, style of the designer's late mother, Ms. Kinlock.</p>
- <div id="store_button_container"><a href="http://get-fresh.myshopify.com/collections/kinlock-collection">Shop Now</a></div> 
+ <!-- <div id="store_button_container"><a href="http://get-fresh.myshopify.com/collections/kinlock-collection">Shop Now</a></div>--> 
             </div><!-- /.content_copy -->
         </div><!-- /#content_kinlock -->
     </div><!-- /#container_kinlock -->
@@ -88,7 +88,7 @@
             
             <p>Visit the Get Fresh Company blog for daily updates. &nbsp; OR<br />    Visit the blog for daily updates on the Get Fresh Company.</p>
                 
-                <div id="blog_button_container"><a href="http://freshbossin.com/">Blog</a></div>
+               <!-- <div id="blog_button_container"><a href="http://freshbossin.com/">Blog</a></div>-->
                 
             </div><!-- /.content_copy -->
         </div><!-- /#content_blog -->
@@ -104,7 +104,7 @@
             
             <p>The Proper Reserve X Get Fresh Company collaborative store and office is located at 498 Queen Street West, Toronto, Canada.</p>
                 
-                <div id="proper_button_container"><a href="http://freshbossin.com/#498">Store</a></div>
+                <!-- <div id="proper_button_container"><a href="http://freshbossin.com/#498">Store</a></div> -->
                 
             </div><!-- /.content_copy -->
         </div><!-- /#content_blog -->
