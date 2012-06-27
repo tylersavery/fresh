@@ -47,7 +47,7 @@
             <div class="content_title">Events</div>
             <div class="content_copy">
                 <p>The Get Fresh Company specializes in organizing and hosting events, such as pop up shops for product launches, fashion shows and celebrity meet and greets.</p>
- <div id="event_button_container"><a href="http://freshbossin.tumblr.com/#events">Events</a></div>
+ <!-- <div id="event_button_container"><a href="http://freshbossin.tumblr.com/#events">Events</a></div>-->
             </div><!-- /.content_copy -->
         </div><!-- /#content_events -->
     </div><!-- /#container_events -->
