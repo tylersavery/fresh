@@ -60,7 +60,7 @@
             <div class="content_title">Online Store</div>
             <div class="content_copy">
                 <p>To look fresh, you have to be fresh.</p>
-                <p>The Get Fresh Company online store is the freshest marketplace in existence. Many products will be exclusively sold here only. Coming Soon!</p>
+                <p>The Get Fresh Company online store is the freshest marketplace in existence. Many products will be exclusively sold here. Coming Soon!</p>
                 <!--<div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Shop Now</a></div> -->
             </div><!-- /.content_copy -->
         </div><!-- /#content_store -->
