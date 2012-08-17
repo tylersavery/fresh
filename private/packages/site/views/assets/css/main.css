@@ -610,11 +610,12 @@ margin-left: -23px;
 #hidden_instagram{
     position: absolute;
     font-size: 15px;
-    color: #000;
+    color: #fff;
     top:40px;
     right: 5px;
-    text-shadow: 1px 1px 1px #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
     display: none;
+    opacity: .9;
 }
 #social .social_item a:hover{
     opacity: 1;
