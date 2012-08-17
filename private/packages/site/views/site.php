@@ -88,7 +88,7 @@
             
             <p>Visit the Get Fresh Company blog for daily updates. &nbsp; OR<br />    Visit the blog for daily updates on the Get Fresh Company.</p>
                 
-               <!-- <div id="blog_button_container"><a href="http://freshbossin.com/">Blog</a></div>-->
+                <div id="blog_button_container"><a href="http://blog.getfreshcompany.com/">Blog</a></div>
                 
             </div><!-- /.content_copy -->
         </div><!-- /#content_blog -->
