@@ -11,7 +11,31 @@ lat_offset = lat - stadium_lat;
 
 $(document).ready(function(){
 
-    // Cache the Window object
+    init_site();
+
+});
+
+
+$(window).load(function(){
+
+  init_site();
+
+});
+
+
+
+
+
+$(window).resize(function(){
+
+  set_bar_x();
+
+});
+
+
+
+function init_site(){
+  // Cache the Window object
     $window = $(window);
 
     set_bar_x();
@@ -188,7 +212,7 @@ if(something > $window.height()){
         
         var top_id = id.replace('background_', '');
          
-        console.log(top_id);
+
 
         var top_target = $('#menu ul li a[href="#' + top_id + '"]')
         
@@ -267,7 +291,7 @@ if(something > $window.height()){
           var $sprite = $(this);
     
           // Use the same calculation to work out how far to scroll the sprite
-          var yPos = -($window.scrollTop() / $sprite.data('speed'));					
+          var yPos = -($window.scrollTop() / $sprite.data('speed'));          
          // var coords = $sprite.data('Xposition') + ' ' + (yPos + $sprite.data('offsetY')) + 'px';
           
           var xPos = -($window.scrollTop() / $sprite.data('speed'));
@@ -287,16 +311,8 @@ if(something > $window.height()){
 
   }); // window scroll
 
-  });	// each data-type
-
-});
-
-
-$(window).resize(function(){
-
-  set_bar_x();
-
-});
+  }); // each data-type
+}
 
 
 
@@ -366,18 +382,12 @@ var color_scheme_json = [
 
   var image = '/img/site/marker.png';
 
-
   var marker = new google.maps.Marker({
         position: latLng, 
         map: map,
         title:"Here we are!",
         icon: image
     });   
-
-
-
-
-
 
 }
 

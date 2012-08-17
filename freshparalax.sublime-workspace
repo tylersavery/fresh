@@ -267,6 +267,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "private/packages/site/views/site.php",
+			"settings":
+			{
+				"buffer_size": 8584,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/blog/themes/fresh/main.js",
+			"settings":
+			{
+				"buffer_size": 2570,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -475,6 +491,61 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "private/packages/site/views/site.php",
+					"settings":
+					{
+						"buffer_size": 8584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/blog/themes/fresh/main.js",
+					"settings":
+					{
+						"buffer_size": 2570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -511,7 +582,7 @@
 		"cols":
 		[
 			0.0,
-			0.513958833262,
+			0.731921613826,
 			1.0
 		],
 		"rows":
@@ -532,12 +603,12 @@
 		"selected_items":
 		[
 			[
-				"reel",
-				"public/templates/samples_reel.html"
+				"main.js",
+				"public/blog/themes/fresh/main.js"
 			],
 			[
-				"main.js",
-				"public/js/main.js"
+				"reel",
+				"public/templates/samples_reel.html"
 			],
 			[
 				"about2",
@@ -750,6 +821,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 229.0,
 	"status_bar_visible": true
 }

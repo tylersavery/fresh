@@ -2,13 +2,9 @@ var first_show = true;
 var current_page;
 
 jQuery(document).ready(function(){
-	
-	
+		
 	load_all_posts();
 
-
-
-	
 	$("#social .social_item#social_item_instagram").mouseover(function(){
 	  $("#hidden_instagram").fadeIn(300);
 	  
