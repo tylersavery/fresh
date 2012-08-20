@@ -47,7 +47,7 @@
             <div class="content_title">Events</div>
             <div class="content_copy">
                 <p>The Get Fresh Company specializes in organizing and hosting events, such as pop up shops for product launches, fashion shows and celebrity meet and greets.</p>
- <!-- <div id="event_button_container"><a href="http://freshbossin.tumblr.com/#events">Events</a></div>-->
+                 <div id="event_button_container"><a href="http://blog.getfreshcompany.com/category/events">Events</a></div>
             </div><!-- /.content_copy -->
         </div><!-- /#content_events -->
     </div><!-- /#container_events -->
@@ -86,7 +86,7 @@
             <div class="content_title">Blog</div>
             <div class="content_copy">
             
-            <p>Visit the Get Fresh Company blog for daily updates. &nbsp; OR<br />    Visit the blog for daily updates on the Get Fresh Company.</p>
+            <p>Visit the Get Fresh Company blog for daily updates.</p>
                 
                 <div id="blog_button_container"><a href="http://blog.getfreshcompany.com/">Blog</a></div>
                 
@@ -103,7 +103,7 @@
             <div class="content_copy">
             
             <p>The Proper Reserve X Get Fresh Company collaborative store and office is located at 498 Queen Street West, Toronto, Canada.</p>
-                
+            <div id="store_button_container"><a href="http://blog.getfreshcompany.com/">Store</a></div>
                 <!-- <div id="proper_button_container"><a href="http://freshbossin.com/#498">Store</a></div> -->
                 
             </div><!-- /.content_copy -->

@@ -525,8 +525,8 @@ width:600px;
 #store_button_container, #blog_button_container, #proper_button_container, #event_button_container{
     margin-top:10px;
     position: absolute;
-margin-top: 40px;
-margin-left: -23px;
+    margin-top: 40px;
+    margin-left: -23px;
 }
 
 #store_button_container{
@@ -563,6 +563,7 @@ margin-left: -23px;
 #event_button_container a{
    background-image: url(/img/site/eventbutton.png); 
 }
+
 
 #store_button_container a:hover, #blog_button_container a:hover, #proper_button_container a:hover, #event_button_container a:hover{
     opacity: 1;

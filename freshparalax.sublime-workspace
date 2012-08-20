@@ -267,22 +267,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "private/packages/site/views/site.php",
-			"settings":
-			{
-				"buffer_size": 8584,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/blog/themes/fresh/main.js",
-			"settings":
-			{
-				"buffer_size": 2570,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -308,6 +292,11 @@
 	},
 	"file_history":
 	[
+		"/Users/tyler/Sites/fresh/public/blog/themes/fresh/main.js",
+		"/Users/tyler/Sites/fresh/public/css/style.css",
+		"/Users/tyler/Sites/fresh/public/blog/themes/fresh/fresh.css",
+		"/Users/tyler/Sites/fresh/private/packages/site/views/assets/css/main.css",
+		"/Users/tyler/Sites/fresh/private/packages/site/views/site.php",
 		"/Users/tyler/Sites/yax/public/templates/about1.html",
 		"/Users/tyler/Sites/yax/public/templates/about2.html",
 		"/Users/tyler/Sites/yax/public/templates/clients.html",
@@ -491,61 +480,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "private/packages/site/views/site.php",
-					"settings":
-					{
-						"buffer_size": 8584,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								604,
-								604
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/blog/themes/fresh/main.js",
-					"settings":
-					{
-						"buffer_size": 2570,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -603,6 +537,18 @@
 		"selected_items":
 		[
 			[
+				"main.css",
+				"private/packages/site/views/assets/css/main.css"
+			],
+			[
+				"fresh.css",
+				"public/blog/themes/fresh/fresh.css"
+			],
+			[
+				".css",
+				"public/css/style.css"
+			],
+			[
 				"main.js",
 				"public/blog/themes/fresh/main.js"
 			],
@@ -621,10 +567,6 @@
 			[
 				"index",
 				"public/index.php"
-			],
-			[
-				"main.css",
-				"public/css/main.css"
 			],
 			[
 				"about1",
