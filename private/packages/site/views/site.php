@@ -103,7 +103,7 @@
             <div class="content_copy">
             
             <p>The Proper Reserve X Get Fresh Company collaborative store and office is located at 498 Queen Street West, Toronto, Canada.</p>
-            <div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Store</a></div>
+            <!--<div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Store</a></div>-->
                 <!-- <div id="proper_button_container"><a href="http://freshbossin.com/#498">Store</a></div> -->
                 
             </div><!-- /.content_copy -->
