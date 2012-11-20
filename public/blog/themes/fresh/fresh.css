@@ -180,6 +180,7 @@ h1#logo{
   color: #000 ;
   font-style:italic;
   font-weight:bold;
+  text-transform: uppercase;
 }
 
 #social{
