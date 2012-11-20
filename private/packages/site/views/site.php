@@ -34,7 +34,7 @@
         <div class="content" id="content_about" data-type="sprite" data-offsetY="280" data-Xposition="0" data-speed="1">
             <div class="content_title">About Us</div>
             <div class="content_copy">
-                <p>The Get Fresh Company began in 2009, in Toronto, Canada. It was created to design, market and distribute the freshest garments. The Get Fresh Company is the ideal marketplace for anyone who likes to keep their wardrobe loud, fresh and exclusive.</p>
+                <p>The Get Fresh Company established in Toronto in 2009 was created to design, market and distribute the freshest garments. Forget the malls, the repetition and the mainstream trends, the Get Fresh Company is for anyone who likes to keep their wardrobe loud, fresh and exclusive.</p>
             </div><!-- /.content_copy -->
         </div><!-- /#content_about -->
     </div><!-- /#container_about -->
@@ -46,7 +46,7 @@
         <div class="content" id="content_events" data-type="sprite" data-offsetY="550" data-Xposition="0" data-speed="2">
             <div class="content_title">Events</div>
             <div class="content_copy">
-                <p>The Get Fresh Company specializes in organizing and hosting events, such as pop up shops for product launches, fashion shows and celebrity meet and greets.</p>
+                <p>Beyond clothes and fashion, the Get Fresh Company is also about the culture and lifestyle. GFC specializes in organizing and hosting events, such as pop up shops for product launches, fashion shows and celebrity meet and greets.</p>
                  <div id="event_button_container"><a href="http://blog.getfreshcompany.com/category/events">Events</a></div>
             </div><!-- /.content_copy -->
         </div><!-- /#content_events -->
@@ -60,8 +60,8 @@
             <div class="content_title">Online Store</div>
             <div class="content_copy">
                 <p>To look fresh, you have to be fresh.</p>
-                <p>The Get Fresh Company online store is the freshest marketplace in existence. Many products will be exclusively sold here. Coming Soon!</p>
-                <!--<div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Shop Now</a></div> -->
+                <p>Visit our online store for some of the most exclusive products in the game.</p>
+                <div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Shop Now</a></div>
             </div><!-- /.content_copy -->
         </div><!-- /#content_store -->
     </div><!-- /#container_store -->
@@ -73,7 +73,7 @@
         <div class="content" id="content_kinlock" data-type="sprite" data-offsetY="1310" data-Xposition="50%" data-speed="2">
             <div class="content_title">Kinlock Collection</div>
             <div class="content_copy">
-                <p>The Kinlock Collections luxorios design speaks for itself. The collection is designed in Toronto, then manufactured in Dubai. The name "Kinlock Collection" itself is inspired by the flamboyant, yet classy, style of the designer's late mother, Ms. Kinlock.</p>
+                <p>The Kinlock Collection is a luxury, in-house brand of accessories designed in Toronto and manufactured in Dubai. The collection itself is inspired by the flamboyant, yet classy, style of the designer's late mother, Ms. Kinlock.</p>
  <!-- <div id="store_button_container"><a href="http://get-fresh.myshopify.com/collections/kinlock-collection">Shop Now</a></div>--> 
             </div><!-- /.content_copy -->
         </div><!-- /#content_kinlock -->
@@ -102,7 +102,15 @@
             <div class="content_title">Store</div>
             <div class="content_copy">
             
-            <p>The Proper Reserve X Get Fresh Company collaborative store and office is located at 498 Queen Street West, Toronto, Canada.</p>
+            <p>The Get Fresh Company collaborative store and office is located at 498 Queen Street West, Toronto, Canada.</p>
+            <P> STORE HOURS<br />
+
+                MONDAY - THURSDAY [12PM-7PM]<br />
+
+                FRIDAY - SATURDAY [12PM - 8PM]<br />
+
+                SUNDAY [12PM-6PM]<br />
+            </p>
             <!--<div id="store_button_container"><a href="http://get-fresh.myshopify.com/">Store</a></div>-->
                 <!-- <div id="proper_button_container"><a href="http://freshbossin.com/#498">Store</a></div> -->
                 
