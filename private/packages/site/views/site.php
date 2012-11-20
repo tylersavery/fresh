@@ -103,7 +103,8 @@
             <div class="content_copy">
             
             <p>The Get Fresh Company collaborative store and office is located at 498 Queen Street West, Toronto, Canada.</p>
-            <P> STORE HOURS<br />
+            <p></p>
+            <P style="text-alight:right;"> STORE HOURS<br />
 
                 MONDAY - THURSDAY [12PM-7PM]<br />
 
