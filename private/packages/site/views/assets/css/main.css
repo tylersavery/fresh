@@ -287,11 +287,11 @@ a{
 
 #background_proper{
     background-image: url(/img/site/backgrounds/proper.jpg) !important;
-    
+    z-index:10;
 }
 
 #container_proper .content{
-    z-index:13;
+    z-index:11;
 }
 
 #container_proper #content_proper .content_copy{
