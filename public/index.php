@@ -10,6 +10,9 @@
  * ---------------------------------------------------------------
  */
 
+header("Location: http://blog.getfreshcompany.com");
+die();
+
 define('DS', DIRECTORY_SEPARATOR);
 define('DOCUMENT_ROOT', dirname(dirname(__FILE__)).DS);
 
